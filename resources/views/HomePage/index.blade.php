@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title','Đăng nhập')
+
 @section('content')
-    <h1 style="display: flex; justify-content: center; align-items:center; height: 100vh;">Include code ở đây</h1>
+    @include('HomePage.navbar')
+    @include('HomePage.main_content')
+    @include('HomePage.footer')
 @endsection

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AddPostPageController;
 use App\Http\Controllers\User\HomePageController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,5 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('HomePage.index');
+    return view('login');
 });
+Route::get('/trang-chu',[HomePageController::class, 'index']);
+Route::get('/dang-bai',[AddPostPageController::class, 'index']);
