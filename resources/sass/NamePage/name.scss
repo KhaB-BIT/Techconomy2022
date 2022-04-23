@@ -1,0 +1,119 @@
+body {
+    background-color: #8AC0FD !important;
+}
+h1 {
+    .box-name {
+        padding: 70px 95px 50px;
+       background-color: #FFFFFF;
+       background-color: #FFFFFF;
+       position: relative;
+	border: 10px solid #000000;
+    &::before{
+        content: "";
+    position: absolute;
+    left: 87%;
+    bottom: -13%;
+    border-top: 65px solid #000000;
+    border-left: 84px solid transparent;
+    
+}
+
+
+    &::after {
+        position: absolute;
+        content: "";
+        left: 89%;
+    bottom: -10%;
+    border-top: 60px solid #FFFFFF;
+    border-left: 63px solid transparent;
+}
+        .enter-name{
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+color: #000000;
+        }
+        p {
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+display: flex;
+align-items: center;
+color: #000000;
+        }
+        #name-form {
+            input {
+                font-weight: 300;
+font-size: 13px;
+padding: 20px;
+width: 100%;
+                background: #FFFFFF;
+
+border: 1px solid #EAEAEA;
+box-sizing: border-box;
+border-radius: 5px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 15px 0px;
+            }
+            .btn-enter {
+                width: 380px;
+height: 38px;
+                font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 13px;
+line-height: 15px;
+align-items: center;
+text-align: center;
+
+
+color: #FFFFFF;
+                background: #1682FD;
+                border-radius: 5px;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                margin: 15px 0px;
+            }
+            .line {
+                margin-top: 30px;
+                margin-bottom: 30px;
+                border: 1px solid #BCBBBC;
+            }
+            .form-group {
+                display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+                .btn {
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    
+    align-items: center;
+    text-align: center;
+    
+    
+    color: #FFFFFF;
+                    width: 300px;
+    height: 50px;
+    
+    background: #8AC0FD;
+    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

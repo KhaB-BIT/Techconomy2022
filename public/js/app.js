@@ -2156,6 +2156,74 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./resources/js/RegisterPage/register.js":
+/*!***********************************************!*\
+  !*** ./resources/js/RegisterPage/register.js ***!
+  \***********************************************/
+/***/ (() => {
+
+var form = document.getElementById('register-form');
+var username = document.getElementById('username');
+var email = document.getElementById('email');
+var password = document.getElementById('password');
+var password2 = document.getElementById('password_confirmation');
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+  checkInputs();
+});
+
+function checkInputs() {
+  // trim to remove the whitespaces
+  var usernameValue = username.value.trim();
+  var emailValue = email.value.trim();
+  var passwordValue = password.value.trim();
+  var password2Value = password2.value.trim();
+
+  if (usernameValue === '') {
+    setErrorFor(username);
+  } else {
+    setSuccessFor(username);
+  }
+
+  if (emailValue === '') {
+    setErrorFor(email);
+  } else if (!isEmail(emailValue)) {
+    setErrorFor(email);
+  } else {
+    setSuccessFor(email);
+  }
+
+  if (passwordValue === '') {
+    setErrorFor(password);
+  } else {
+    setSuccessFor(password);
+  }
+
+  if (password2Value === '') {
+    setErrorFor(password2);
+  } else if (passwordValue !== password2Value) {
+    setErrorFor(password2);
+  } else {
+    setSuccessFor(password2);
+  }
+}
+
+function setErrorFor(input) {
+  var formControl = input.parentElement;
+  formControl.className = 'form-group error';
+}
+
+function setSuccessFor(input) {
+  var formControl = input.parentElement;
+  formControl.className = 'form-group success';
+}
+
+function isEmail(email) {
+  return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -2163,6 +2231,8 @@ module.exports = {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+__webpack_require__(/*! ./RegisterPage/register */ "./resources/js/RegisterPage/register.js");
 
 /***/ }),
 
