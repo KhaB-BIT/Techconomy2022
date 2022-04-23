@@ -2156,6 +2156,44 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./resources/js/AddPostPage/upload_file.js":
+/*!*************************************************!*\
+  !*** ./resources/js/AddPostPage/upload_file.js ***!
+  \*************************************************/
+/***/ (() => {
+
+function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+
+    reader.onload = function (e) {
+      $('.image-upload-wrap').hide();
+      $('.file-upload-image').attr('src', e.target.result);
+      $('.file-upload-content').show();
+      $('.image-title').html(input.files[0].name);
+    };
+
+    reader.readAsDataURL(input.files[0]);
+  } else {
+    removeUpload();
+  }
+}
+
+function removeUpload() {
+  $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+  $('.file-upload-content').hide();
+  $('.image-upload-wrap').show();
+}
+
+$('.image-upload-wrap').bind('dragover', function () {
+  $('.image-upload-wrap').addClass('image-dropping');
+});
+$('.image-upload-wrap').bind('dragleave', function () {
+  $('.image-upload-wrap').removeClass('image-dropping');
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -2163,6 +2201,8 @@ module.exports = {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+__webpack_require__(/*! ./AddPostPage/upload_file */ "./resources/js/AddPostPage/upload_file.js");
 
 /***/ }),
 
