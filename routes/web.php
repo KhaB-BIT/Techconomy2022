@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\AddPostPageController;
+use App\Http\Controllers\User\LoginPageController;
+use App\Http\Controllers\RegisterPageController;
+use App\Http\Controllers\NamePageController;
 use App\Http\Controllers\User\HomePageController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +23,6 @@ Route::get('/', function () {
 });
 Route::get('/trang-chu',[HomePageController::class, 'index']);
 Route::get('/dang-bai',[AddPostPageController::class, 'index']);
+Route::get('/dang-nhap',[LoginPageController::class, 'index']);
+Route::get('/dang-ky',[RegisterPageController::class, 'index']);
+Route::get('/ten',[NamePageController::class, 'index']);

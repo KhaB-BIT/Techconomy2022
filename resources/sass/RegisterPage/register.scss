@@ -1,0 +1,130 @@
+body {
+    background-color: #2ecc71 !important;
+}
+
+h1 {
+
+    .box-register {
+        padding: 26px 14px 31px;
+        background-color: #FFFFFF;
+        position: relative;
+        border: 6px solid #000000;
+
+        @media (min-width: 576px) {
+            padding: 70px 95px 50px;
+            border: 10px solid #000000;
+
+            &::before {
+                content: "";
+                position: absolute;
+                left: 87%;
+                bottom: -15%;
+                border-top: 65px solid #000000;
+                border-left: 84px solid transparent;
+            }
+
+
+            &::after {
+                position: absolute;
+                content: "";
+                left: 89%;
+                bottom: -12%;
+                border-top: 60px solid #FFFFFF;
+                border-left: 63px solid transparent;
+            }
+        }
+
+        #register-form {
+            .label-register {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 19px;
+                line-height: 28px;
+                display: flex;
+                align-items: center;
+
+                color: #000000;
+
+                @media (min-width: 576px) {
+                    font-size: 24px;
+                }
+            }
+
+            .form-group {
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                input {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 13px;
+                    width: 100%;
+                    padding: 15px;
+                    display: flex;
+                    align-items: center;
+                    color: #808080;
+                    background: #FFFFFF;
+                    border: 1px solid #EAEAEA;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                    margin: 7px 0px;
+                }
+
+                i {
+                    visibility: hidden;
+                    position: absolute;
+                    top: 13px;
+                    right: 10px;
+                }
+
+                .btn-register {
+                    padding: 12px 20px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 13px;
+                    line-height: 15px;
+                    align-items: center;
+                    text-align: center;
+
+
+                    color: #FFFFFF;
+                    width: 299px;
+                    height: 38px;
+                    background: #1682FD;
+                    border-radius: 5px;
+
+                    flex: none;
+                    order: 4;
+                    flex-grow: 0;
+                    margin: 15px 0px;
+
+                    @media (min-width: 576px) {
+
+
+                        width: 380px;
+                        height: 38px;
+                    }
+
+                }
+            }
+
+            .form-group.success i.fas.fa-check {
+                color: #2ecc71;
+                visibility: visible;
+            }
+
+            .form-group.error i.fas.fa-times-circle {
+                color: #e74c3c;
+                visibility: visible;
+            }
+        }
+    }
+}
