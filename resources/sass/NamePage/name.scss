@@ -3,30 +3,32 @@ body {
 }
 h1 {
     .box-name {
-        padding: 70px 95px 50px;
-       background-color: #FFFFFF;
+        @media (min-width: 576px) {
+            padding: 70px 95px 50px;
+            &::before{
+                content: "";
+            position: absolute;
+            left: 87%;
+            bottom: -13%;
+            border-top: 65px solid #000000;
+            border-left: 84px solid transparent;
+            
+        }
+        
+        
+            &::after {
+                position: absolute;
+                content: "";
+                left: 89%;
+            bottom: -10%;
+            border-top: 60px solid #FFFFFF;
+            border-left: 63px solid transparent;
+        }
+        }
+        padding: 26px 14px 31px;
        background-color: #FFFFFF;
        position: relative;
 	border: 10px solid #000000;
-    &::before{
-        content: "";
-    position: absolute;
-    left: 87%;
-    bottom: -13%;
-    border-top: 65px solid #000000;
-    border-left: 84px solid transparent;
-    
-}
-
-
-    &::after {
-        position: absolute;
-        content: "";
-        left: 89%;
-    bottom: -10%;
-    border-top: 60px solid #FFFFFF;
-    border-left: 63px solid transparent;
-}
         .enter-name{
             font-family: 'Roboto';
 font-style: normal;
@@ -65,7 +67,10 @@ flex-grow: 0;
 margin: 15px 0px;
             }
             .btn-enter {
-                width: 380px;
+                @media(min-width:576px) {
+                     width: 380px;
+                }
+                   width: 314px;
 height: 38px;
                 font-family: 'Roboto';
 font-style: normal;
