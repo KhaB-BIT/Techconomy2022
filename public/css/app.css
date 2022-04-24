@@ -112,6 +112,8 @@ h1 .box-login #login-form .btn-login {
   }
 }
 h1 .box-login #login-form .forgot-pass {
+  cursor: pointer;
+  text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;

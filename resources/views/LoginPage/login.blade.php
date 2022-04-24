@@ -5,7 +5,7 @@
     <div class="form-group"><input type="text" placeholder="Username"></div>
     <div class="form-group"><input type="password" placeholder ="Mật khẩu"></div>
     <button class= "btn-login">Đăng nhập</button>
-    <h2 class= "forgot-pass">Quên mật khẩu?</h2>
+    <a class= "forgot-pass">Quên mật khẩu?</a>
     <div class="line"></div>
     <div class="form-group"><button class= "btn">Tạo tài khoản mới</button></div>
     </form>
