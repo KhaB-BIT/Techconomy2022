@@ -30,4 +30,3 @@ function readURL(input) {
       $('.image-upload-wrap').bind('dragleave', function () {
           $('.image-upload-wrap').removeClass('image-dropping');
   });
-  
