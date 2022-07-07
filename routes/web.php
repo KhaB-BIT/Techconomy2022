@@ -19,10 +19,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login');
+    return view('welcome');
 });
-Route::get('/trang-chu',[HomePageController::class, 'index']);
-Route::get('/dang-bai',[AddPostPageController::class, 'index']);
-Route::get('/dang-nhap',[LoginPageController::class, 'index']);
-Route::get('/dang-ky',[RegisterPageController::class, 'index']);
-Route::get('/ten',[NamePageController::class, 'index']);
