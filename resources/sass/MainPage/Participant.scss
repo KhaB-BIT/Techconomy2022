@@ -1,0 +1,51 @@
+.container-participant {
+    width: 1000px;
+    margin: auto;
+
+    .participant--title {
+        margin: 50px 0;
+
+        img {
+            display: block;
+            margin: auto;
+        }
+    }
+
+    .participant {
+        display: flex;
+
+        &__list {
+            list-style: none;
+
+            li {
+                width: 80%;
+                display: flex;
+                align-items: center;
+                margin: 10px 0;
+
+                .fa-solid {
+                    margin-right: 15px;
+                    color: #66ffe5;
+                    font-size: 30px;
+                }
+
+                .fa-circle-exclamation {
+                    color: #f5a623;
+                }
+                p {
+                    margin-bottom: 0;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        &__img {
+            img {
+                width: 490px;
+                height: 330px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+        }
+    }
+}

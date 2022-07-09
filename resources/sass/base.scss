@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
 }
+
+html {
+    scroll-padding-top: 50px;
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: $background !important;
+    background-image: url('/img/techconomy.png');
+    background-position: center;
+    background-repeat: repeat-y;
     color: #fff !important;
 }

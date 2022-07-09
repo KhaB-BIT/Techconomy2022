@@ -1,0 +1,59 @@
+.award--title {
+
+    margin: 50px 0;
+
+    img {
+        
+        display: block;
+        margin: auto;
+    }
+}
+
+.container-award {
+
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .award {
+
+        margin: 30px 0;
+
+        .award__rank {
+            width: 320px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 27px;
+        }
+
+        .award__info {
+
+            width: 320px;
+            height: 390px;
+            padding-top: 60px;
+            background-image: url('/img/border award.png');
+            background-repeat: no-repeat;
+            
+            .award__info--detail {
+                display: block;
+                text-align: center;
+                font-size: 23px;
+                margin: 5px 0;
+
+                img {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .award:first-child {
+        margin-top: 100px;
+    }
+    .award:nth-child(3) {
+        margin-top: 200px;
+    }
+
+}

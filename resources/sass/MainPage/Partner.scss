@@ -1,0 +1,21 @@
+.partner--title {
+    margin: 50px 0;
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}
+
+.container-partner {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        max-height: 70px;
+        max-height: 200px;
+        object-fit: contain;
+    }
+}

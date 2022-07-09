@@ -2,4 +2,9 @@
 
 @section('content')
     @include('MainPage.Intro')
+    @include('MainPage.Round')
+    @include('MainPage.Participant')
+    @include('MainPage.Rule')
+    @include('MainPage.Award')
+    @include('MainPage.Partner')
 @endsection

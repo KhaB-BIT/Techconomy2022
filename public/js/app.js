@@ -2156,6 +2156,26 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./resources/js/MainPage/ButtonFixed.js":
+/*!**********************************************!*\
+  !*** ./resources/js/MainPage/ButtonFixed.js ***!
+  \**********************************************/
+/***/ (() => {
+
+var btn_fixed = document.getElementById('fixed-button');
+
+document.onscroll = function () {
+  var scrollTop = window.scrollY || document.documentElement.scrollTop;
+
+  if (scrollTop > 600) {
+    btn_fixed.style.display = 'block';
+  } else {
+    btn_fixed.style.display = 'none';
+  }
+};
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -2163,6 +2183,8 @@ module.exports = {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+__webpack_require__(/*! ./MainPage/ButtonFixed */ "./resources/js/MainPage/ButtonFixed.js");
 
 /***/ }),
 
