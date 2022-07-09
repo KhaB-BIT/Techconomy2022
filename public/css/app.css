@@ -376,3 +376,80 @@ header .banner .banner__scroll-down i {
   -o-object-fit: contain;
      object-fit: contain;
 }
+
+.container-adviser {
+  margin-top: 100px;
+}
+.container-adviser .adviser--title img {
+  display: block;
+  margin: 50px auto;
+}
+.container-adviser .main-item {
+  width: 850px;
+  margin: 50px auto;
+  position: relative;
+}
+.container-adviser .main-item .main-item__img {
+  width: 440px;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+  filter: drop-shadow(10px 5px 20px rgba(133, 213, 230, 0.3));
+}
+.container-adviser .main-item .main-item__info {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  max-width: 440px;
+  padding: 20px 30px;
+  transform: translateY(-50%);
+  border-radius: 30px;
+  border: 3px solid #85D5E6;
+  background: linear-gradient(90deg, #85d5e6 0%, rgba(133, 213, 230, 0.85) 23.56%, rgba(133, 213, 230, 0.45) 51.29%, rgba(133, 213, 230, 0.15) 76.6%, rgba(133, 213, 230, 0) 94.44%);
+}
+.container-adviser .main-item .main-item__info--name, .container-adviser .main-item .main-item__info--detail {
+  font-size: 20px;
+  font-weight: 500;
+}
+.container-adviser .main-item .main-item__info .item-bottom-left {
+  position: absolute;
+  width: unset;
+  bottom: -25px;
+  left: -25px;
+}
+.container-adviser .main-item .main-item__info .item-top-right {
+  position: absolute;
+  width: unset;
+  top: -25px;
+  right: -25px;
+}
+.container-adviser .main-item .main-item__info .item-line-top {
+  position: absolute;
+  width: unset;
+  top: -25px;
+  left: 20%;
+}
+.container-adviser .main-item .main-item__info .item-line-bottom {
+  position: absolute;
+  width: unset;
+  bottom: -25px;
+  left: 40%;
+}
+.container-adviser .main-item .main-item__info .item-dot {
+  width: unset;
+}
+.container-adviser .main-item .main-item__info .item-dot-1 {
+  position: absolute;
+  top: -15px;
+}
+.container-adviser .main-item .main-item__info .item-dot-2 {
+  position: absolute;
+  bottom: -15px;
+  left: 120px;
+}
+.container-adviser .main-item .main-item__info .item-dot-3 {
+  position: absolute;
+  bottom: -15px;
+  right: 25px;
+}

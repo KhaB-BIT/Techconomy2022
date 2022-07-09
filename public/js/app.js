@@ -2156,6 +2156,31 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./resources/js/MainPage/Adviser.js":
+/*!******************************************!*\
+  !*** ./resources/js/MainPage/Adviser.js ***!
+  \******************************************/
+/***/ (() => {
+
+$('.owl-carousel').owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  responsive: {
+    0: {
+      items: 1
+    },
+    600: {
+      items: 1
+    },
+    1000: {
+      items: 1
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./resources/js/MainPage/ButtonFixed.js":
 /*!**********************************************!*\
   !*** ./resources/js/MainPage/ButtonFixed.js ***!
@@ -2185,6 +2210,8 @@ document.onscroll = function () {
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! ./MainPage/ButtonFixed */ "./resources/js/MainPage/ButtonFixed.js");
+
+__webpack_require__(/*! ./MainPage/Adviser */ "./resources/js/MainPage/Adviser.js");
 
 /***/ }),
 

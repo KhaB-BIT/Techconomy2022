@@ -1,0 +1,91 @@
+.container-adviser {
+    margin-top: 100px;
+
+    .adviser--title {
+        img{
+            display: block;
+            margin: 50px auto;
+        }
+    }
+
+    .main-item {
+        width: 850px;
+        margin: 50px auto;
+        position: relative;
+
+        .main-item__img {
+            width: 440px;
+            height: 550px;
+            object-fit: cover;
+            border-radius: 25px;
+            filter: drop-shadow(10px 5px 20px rgba(133, 213, 230, 0.3))
+        }
+        .main-item__info {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            max-width: 440px;
+            padding: 20px 30px;
+            transform: translateY(-50%);
+            border-radius: 30px;
+            border: 3px solid $blue_border;
+            background: linear-gradient(
+                90deg,
+                #85d5e6 0%,
+                rgba(133, 213, 230, 0.85) 23.56%,
+                rgba(133, 213, 230, 0.45) 51.29%,
+                rgba(133, 213, 230, 0.15) 76.6%,
+                rgba(133, 213, 230, 0) 94.44%
+            );
+
+            &--name,
+            &--detail {
+                font-size: 20px;
+                font-weight: 500;
+            }
+
+            .item-bottom-left {
+                position: absolute;
+                width: unset;
+                bottom: -25px;
+                left: -25px;
+            }
+            .item-top-right {
+                position: absolute;
+                width: unset;
+                top: -25px;
+                right: -25px;
+            }
+            .item-line-top {
+                position: absolute;
+                width: unset;
+                top: -25px;
+                left: 20%;
+            }
+            .item-line-bottom {
+                position: absolute;
+                width: unset;
+                bottom: -25px;
+                left: 40%;
+            }
+            .item-dot {
+                width: unset;
+            }
+            .item-dot-1 {
+                position: absolute;
+                top: -15px;
+            }
+
+            .item-dot-2 {
+                position: absolute;
+                bottom: -15px;
+                left: 120px;
+            }
+            .item-dot-3 {
+                position: absolute;
+                bottom: -15px;
+                right: 25px;
+            }
+        }
+    }
+}
