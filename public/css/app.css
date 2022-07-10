@@ -143,7 +143,7 @@ header .banner .banner__scroll-down i {
   display: none;
   z-index: 100;
   position: fixed;
-  right: 0;
+  right: -105px;
   top: 40%;
   transform: rotate(90deg);
   padding: 5px 20px;
@@ -452,4 +452,70 @@ header .banner .banner__scroll-down i {
   position: absolute;
   bottom: -15px;
   right: 25px;
+}
+
+.container-footer {
+  position: relative;
+  max-width: 1440px;
+  margin: 50px 0;
+}
+.container-footer .footer__background {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container-footer .footer__contact--title,
+.container-footer .footer__media--title {
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.container-footer a {
+  margin-left: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+.container-footer a:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+.container-footer .footer__contact {
+  position: absolute;
+  top: 55px;
+  left: 170px;
+}
+.container-footer .footer__contact--phone {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.container-footer .footer__contact--phone .circle-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.container-footer .footer__contact--phone .circle-icon i {
+  font-size: 15px;
+  color: #001633;
+}
+.container-footer .footer__media {
+  position: absolute;
+  top: 55px;
+  right: 140px;
+}
+.container-footer .footer__media--link {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.container-footer .footer__media--link i {
+  font-size: 25px;
+  color: #fff;
 }

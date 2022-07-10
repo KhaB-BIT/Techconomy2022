@@ -6,7 +6,7 @@
             <a class="nav__link" href="#round">Về cuộc thi</a>
             <a class="nav__link" href="#participant">Đối tác</a>
             <a class="nav__link" href="">FAQs</a>
-            <a class="nav__link" href="">Liên hệ</a>
+            <a class="nav__link" href="#footer">Liên hệ</a>
         </nav>
     </div>
     <div class="banner">
