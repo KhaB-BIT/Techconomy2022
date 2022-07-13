@@ -2191,13 +2191,14 @@ var btn_fixed = document.getElementById('fixed-button');
 
 document.onscroll = function () {
   var scrollTop = window.scrollY || document.documentElement.scrollTop;
+  var widthDevice = screen.availWidth;
 
-  if (scrollTop > 600) {
+  if (scrollTop > 600 && widthDevice >= 768) {
     btn_fixed.style.display = 'block';
   } else {
     btn_fixed.style.display = 'none';
   }
-}; //xu ly dong - mo button dang ky
+}; //xu ly dong - mo dang ky
 
 
 var closePopup = document.getElementById('register__close');
@@ -2214,14 +2215,12 @@ btn_fixed.onclick = function () {
 
 closePopup.onclick = function () {
   containerRegister.style.display = 'none';
-}; //scroll to top
-
-
-document.getElementById('scrollToTop').addEventListener("click", function () {
-  //Nếu button được click thì nhảy về đầu trang
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-});
+}; // //scroll to top
+// document.getElementById('scrollToTop').addEventListener("click", function () {
+//     //Nếu button được click thì nhảy về đầu trang
+//     document.body.scrollTop = 0;
+//     document.documentElement.scrollTop = 0;
+// });
 
 /***/ }),
 
@@ -2251,9 +2250,9 @@ document.getElementById('scrollToTop').addEventListener("click", function () {
       yyyy = today.getFullYear(),
       nextYear = yyyy + 1,
       dayMonth = "08/15/",
-      birthday = dayMonth + yyyy;
+      deadline = dayMonth + yyyy;
   today = mm + "/" + dd + "/" + yyyy;
-  var countDown = new Date(birthday).getTime(),
+  var countDown = new Date(deadline).getTime(),
       x = setInterval(function () {
     var now = new Date().getTime(),
         distance = countDown - now;

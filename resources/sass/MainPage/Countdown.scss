@@ -1,16 +1,29 @@
 .container-countdown {
+    margin: 50px 0;
     .countdown {
         position: relative;
-        width: 660px;
+        width: 100%;
         padding: 30px;
         margin: auto;
         border-radius: 30px;
-        border: 3px solid $blue_border;
+        border: 2px solid $blue_border;
+
+        @media (min-width: 768px) {
+            width: 660px;
+            border: 3px solid $blue_border;
+        }
+        
+        @media (min-width: 1200px) {
+        }
 
         .countdown__title {
-            font-size: 35px;
+            font-size: 20px;
             font-weight: 600;
             text-align: center;
+
+            @media (min-width: 768px) {
+                font-size: 35px;
+            }
         }
 
         .countdown__time {
@@ -18,57 +31,110 @@
             justify-content: center;
 
             .countdown__time--detail {
-                min-width: 100px;
+                min-width: 60px;
                 text-align: center;
 
+                @media (min-width: 768px) {
+                    min-width: 100px;
+                }
+
                 span {
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: 500;
                     color: #fff;
+                    
+                    @media (min-width: 768px) {
+                        font-size: 25px;
+                    }
                 }
 
                 .time {
-                    font-size: 45px;
+                    font-size: 30px;
                     font-weight: 700;
                     color: $yellow_orange;
+
+                    @media (min-width: 768px) {
+                        font-size: 45px;
+                        
+                    }
                 }
             }
         }
 
         .countdown-bottom-left {
             position: absolute;
-            bottom: -25px;
-            left: -25px;
+            bottom: -28px;
+            left: -32px;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                bottom: -25px;
+                left: -25px;
+                transform: scale(1);
+            }
         }
+
         .countdown-top-right {
             position: absolute;
-            top: -25px;
-            right: -25px;
+            top: -28px;
+            right: -32px;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                top: -25px;
+                right: -25px;
+                transform: scale(1);
+            }
         }
 
         .countdown-line-1 {
             position: absolute;
-            top: -25px;
-            left: 100px;
 
+            position: absolute;
+            top: -24px;
+            left: 30%;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                top: -25px;
+                left: 40%;
+                transform: scale(1);
+            }
         }
+
         .countdown-line-2 {
             position: absolute;
-            bottom: -25px;
-            right: 150px;
+            bottom: -24px;
+            left: 55%;
+            transform: scale(0.8);
 
+            @media (min-width: 768px) {
+                bottom: -25px;
+                left: 60%;
+                transform: scale(1);
+            }
         }
 
         .countdown-dot-1 {
             position: absolute;
             top: -15px;
-            left: 50px;
+            left: 20%;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                transform: scale(1);
+            }
         }
 
         .countdown-dot-2 {
             position: absolute;
             bottom: -15px;
-            left: 130px;
+            left: 30%;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                transform: scale(1);
+            }
         }
     }
 }

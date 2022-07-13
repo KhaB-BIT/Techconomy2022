@@ -1,3 +1,8 @@
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1200px) {
+}
 .container-register {
     display: none;
     position: fixed;
@@ -14,38 +19,96 @@
         left: 50%;
         transform: translate(-50%, -50%);
 
+        img {
+            width: 360px;
+
+            @media (min-width: 768px) {
+                width: 700px;
+            }
+            
+            @media (min-width: 1200px) {
+                width: unset;
+            }
+        }
+
         #register__close {
             position: absolute;
-            top: 0;
+            top: -25px;
             right: 0;
             color: $blue_border;
-            font-size: 32px;
+            font-size: 25px;
             cursor: pointer;
+
+            @media (min-width: 768px) {
+                font-size: 32px;
+            }
+            
+            @media (min-width: 1200px) {
+                top: 0;
+                
+            }
         }
 
         .register__info {
             position: absolute;
             top: 0;
-            right: 20%;
+            right: 30px;
+
+            @media (min-width: 768px) {
+                right: 90px;
+            }
+            
+            @media (min-width: 1200px) {
+                right: 20%;
+            }
 
             &--title {
-                font-size: 30px;
+                font-size: 18px;
                 font-weight: 600;
-                margin: 55px 0;
+                margin: 20px 0 15px;
+                
+                @media (min-width: 768px) {
+                    font-size: 30px;
+                    margin: 55px 0 30px;
+                }
+
+                @media (min-width: 1200px) {
+                    margin: 55px 0;
+                }
+
             }
             button {
-                font-size: 20px;
+                font-size: 10px;
                 font-weight: 500;
-                padding: 5px 10px;
-                min-width: 250px;
+                padding: 3px 10px;
+                min-width: 125px;
                 border-radius: 20px;
                 border: 2px solid $blue_border;
                 background-color: #020611;
                 color: #fff;
                 box-shadow: #0d6efd42 0px 10px 15px -3px, rgb(0 0 0 / 5%) 0px 4px 6px -2px;
+
+                @media (min-width: 768px) {
+                    font-size: 20px;
+                    min-width: 250px;
+                }
+                
+                @media (min-width: 1200px) {
+                    font-size: 20px;
+                    padding: 5px 10px;
+                    min-width: 250px;
+                }
             }
             &--btnHelp {
-                margin-top: 30px;
+                margin-top: 10px;
+                
+                @media (min-width: 768px) {
+                    margin-top: 20px;
+                }
+
+                @media (min-width: 1200px) {
+                    margin-top: 30px;
+                }
             }
         }
     }

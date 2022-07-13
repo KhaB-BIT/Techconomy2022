@@ -10,7 +10,7 @@
         </nav>
     </div>
     <div class="banner">
-        <img src="./img/banner.png" alt="Banner">
+        <img class="banner__img" src="./img/banner.png" alt="Banner">
         <div class="banner__info">
             <h3 class="banner__info--text">CUỘC THI Ý TƯỞNG CÔNG NGHỆ</h3>
             <h2 class="banner__info--text">TECHCONOMY 2022</h2>

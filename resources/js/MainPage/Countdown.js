@@ -23,11 +23,11 @@
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
         dayMonth = "08/15/",
-        birthday = dayMonth + yyyy;
+        deadline = dayMonth + yyyy;
 
     today = mm + "/" + dd + "/" + yyyy;
 
-    const countDown = new Date(birthday).getTime(),
+    const countDown = new Date(deadline).getTime(),
         x = setInterval(function () {
 
             const now = new Date().getTime(),

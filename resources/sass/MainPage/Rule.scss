@@ -1,61 +1,138 @@
 .container-rule {
-    width: 850px;
+    width: 100%;
     margin: auto;
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 1200px) {
+        width: 850px;
+    }
 
     .rule--title {
         img {
+            margin: 30px auto;
             display: block;
-            margin: 50px auto;
+            height: 30px;
+
+            @media (min-width: 768px) {
+                height: 50px;
+            }
+
+            @media (min-width: 1200px) {
+                height: unset;
+                margin: 50px auto;
+            }
         }
     }
 
     .rule {
         position: relative;
         border-radius: 30px;
-        padding: 20px;
-        border: 3px solid #85d5e6;
+        padding: 15px;
+        border: 2px solid #85d5e6;
+
+        @media (min-width: 768px) {
+            padding: 20px;
+        }
+
+        @media (min-width: 1200px) {
+            padding: 20px;
+            border: 3px solid #85d5e6;
+        }
 
         &__list {
+            padding-left: 10px;
+            margin: 0;
+
             li {
                 list-style: none;
-                font-size: 25px;
+                font-size: 12px;
+
+                @media (min-width: 768px) {
+                    font-size: 16px;
+                }
+
+                @media (min-width: 1200px) {
+                    font-size: 25px;
+                }
             }
         }
 
         .rule-bottom-left {
             position: absolute;
-            bottom: -25px;
-            left: -25px;
+            bottom: -28px;
+            left: -32px;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                bottom: -25px;
+                left: -25px;
+                transform: scale(1);
+            }
         }
 
         .rule-top-right {
             position: absolute;
-            top: -25px;
-            right: -25px;
+            top: -28px;
+            right: -32px;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                top: -25px;
+                right: -25px;
+                transform: scale(1);
+            }
         }
 
         .rule-line-1 {
             position: absolute;
-            top: -25px;
-            left: 40%;
+
+            position: absolute;
+            top: -24px;
+            left: 30%;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                top: -25px;
+                left: 40%;
+                transform: scale(1);
+            }
         }
 
         .rule-line-2 {
             position: absolute;
-            bottom: -25px;
-            left: 60%;
+            bottom: -24px;
+            left: 55%;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                bottom: -25px;
+                left: 60%;
+                transform: scale(1);
+            }
         }
 
         .rule-dot-1 {
             position: absolute;
             top: -15px;
             left: 20%;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                transform: scale(1);
+            }
         }
 
         .rule-dot-2 {
             position: absolute;
             bottom: -15px;
             left: 30%;
+            transform: scale(0.8);
+
+            @media (min-width: 768px) {
+                transform: scale(1);
+            }
         }
     }
 }

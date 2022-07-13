@@ -5,25 +5,57 @@ header {
 
     .navigation {
         display: flex;
-        padding: 0 70px;
+        padding: 0 12px;
 
+        @media (min-width: 768px) {
+            padding: 0 20px;
+        }
+
+        @media (min-width: 1200px) {
+            padding: 0 70px;
+        }
+ 
         &__logo {
             z-index: 100;
-            margin-top: 20px;
+            margin-top: 10px;
+            height: 30px;
+
+            @media (min-width: 768px) {
+                height: 40px;
+                margin-top: 15px;
+            }
+
+            @media (min-width: 1200px) {
+                height: unset;
+                margin-top: 20px;
+            }
         }
 
         nav {
-            display: flex;
-            align-items: center;
+            display: none;
             margin-left: 50px;
             z-index: 100;
 
+            @media (min-width:768px) {
+                display: flex;
+                align-items: center;
+            }
+
             .nav__link {
-                padding: 10px 35px;
+                
                 text-decoration: none;
                 color: #fff;
-                font-size: 20px;
                 font-weight: 700;
+
+                @media (min-width: 768px) {
+                    padding: 10px 20px;
+                    font-size: 15px;
+                }
+
+                @media (min-width: 1200px) {
+                    padding: 10px 35px;
+                    font-size: 20px;
+                }
 
                 &:hover {
                     opacity: 0.8;
@@ -39,37 +71,86 @@ header {
         right: 0;
         z-index: 1;
 
+        .banner__img {
+            width: 100%;
+
+            @media (min-width:1200px) {
+                width: unset;
+            }
+        }
+
         .banner__info {
             position: absolute;
             top: 60%;
             transform: translateY(-50%);
-            left: 30px;
+            left: 15px;
+
+            @media (min-width:1200px) {
+                left: 30px;
+            }
 
             &--text:first-child {
-                font-size: 36px;
+                font-size: 13px;
                 font-weight: 200;
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width:1200px) {
+                    font-size: 36px;
+                }
             }
 
             &--text:nth-child(2) {
-                font-size: 80px;
+                font-size: 23px;
                 font-weight: 800;
                 text-shadow: 0 0 10px #dadae2;
+
+                @media (min-width: 768px) {
+                    font-size: 45px;
+                }
+
+                @media (min-width: 1200px) {
+                    font-size: 80px;
+                }
             }
 
             &--text:nth-child(3) {
-                font-size: 42px;
+                font-size: 14px;
                 font-weight: 600;
+
+                @media (min-width: 768px) {
+                    font-size: 26px;
+                }
+
+                @media (min-width: 1200px) {
+                    font-size: 42px;
+                }
             }
 
             button {
-                padding: 5px 20px;
-                margin: 120px 0 0 120px;
+                padding: 3px 10px;
+                margin: 10px 0 0 10px;
                 background-color: $yellow_orange;
                 color: $background;
-                font-size: 32px;
+                font-size: 10px;
                 font-weight: 500;
-                border-radius: 15px;
+                border-radius: 10px;
                 border: none;
+
+                @media (min-width: 768px) {
+                    font-size: 18px;
+                    padding: 5px 20px;
+                    margin: 50px 0 0 50px;
+                }
+
+                @media (min-width:1200px) {
+                    font-size: 32px;
+                    padding: 5px 20px;
+                    border-radius: 15px;
+                    margin: 120px 0 0 120px;
+                }
             }
         }
 
@@ -82,7 +163,15 @@ header {
                 text-shadow: 0 0 10px #85d5e6;
                 transform: scaleX(1.4);
                 color: #85d5e6;
-                font-size: 30px;
+                font-size: 20px;
+
+                @media (min-width:1200px) {
+                    font-size: 25px;
+                }
+
+                @media (min-width:1200px) {
+                    font-size: 30px;
+                }
             }
         }
     }
