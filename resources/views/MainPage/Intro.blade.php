@@ -1,6 +1,8 @@
 <section id="intro">
     <div class="container-intro">
-        <h1 class="intro__title">GIỚI THIỆU</h1>
+        <div class="intro__title">
+            <img src="./img/gioi thieu.png" alt="">
+        </div>
         <div class="intro__content">
             <p><b>TECHCONOMY 2022 - THE NEW GLOBAL CONTEXT</b>, tiền thân là GLOBAL TALENTS, là cuộc thi học thuật về công nghệ
                 được tổ chức bởi <b>ET Club - Câu lạc bộ Công nghệ kinh tế</b>.

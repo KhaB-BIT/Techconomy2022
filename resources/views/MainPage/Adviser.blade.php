@@ -15,10 +15,17 @@
                     <img class="main-item__img" src="/img/anh co van 1.jpg" alt="">
                     <div class="main-item__info border-gradient">
                         <h1 class="main-item__info--name">TS. NGÔ TẤN VŨ KHANH</h1>
+<<<<<<< HEAD
                         <p class="main-item__info--detail mt-0">Giám đốc chương trình Cao học IDT - Trường Đại học Kinh tế TP.HCM <br>
                             Giám đốc Phát triển Kaspersky Lab <br>
                             Cố vấn lĩnh vực: Thương mại điện tử
                          </p>
+=======
+                        <p class="main-item__info--detail mt-0">Giám đốc chương trình Cao học IDT - Trường Đại học Kinh tế TP.HCM
+                            Giám đốc Phát triển Kaspersky Lab
+                            Cố vấn lĩnh vực: Thương mại điện tử Cố vấn lĩnh vực: Thương mại điện tử Cố vấn lĩnh vực: Thương mại điện tử Cố vấn lĩnh vực: Thương mại điện tử
+                        </p>
+>>>>>>> c202e9669a43368c851fa713e722d96c340a13e8
 
                         <img class="item-bottom-left" src="/img/Line 59.png" alt="">
                     

@@ -1,6 +1,14 @@
 #intro {
-    margin-top: 700px;
+    margin-top: 180px;
     position: relative;
+
+    @media (min-width: 768px) {
+        margin-top: 370px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-top: 700px;
+    }
 }
 .container-intro {
     margin: auto;
@@ -9,15 +17,40 @@
     font-weight: 400;
 
     .intro__title {
-        text-align: center;
+        img {
+            margin: 30px auto;
+            display: block;
+            height: 30px;
+
+            @media (min-width: 768px) {
+                height: 50px;
+            }
+            
+            @media (min-width: 1200px) {
+                height: unset;
+                margin: 50px auto;
+            }
+        }
     }
     .intro__content {
-        padding: 30px;
+        padding: 15px;
         border-radius: 15px;
         background: $background;
         background-clip: padding-box;
-        border: 3px dashed transparent;
+        border: 2px dashed transparent;
         position: relative;
+        font-size: 12px;
+
+        @media (min-width: 768px) {
+            font-size: 18px;
+            padding: 20px;
+            border: 3px dashed transparent;
+        }
+        
+        @media (min-width: 1200px) {
+            font-size: 25px;
+            padding: 30px;
+        }
 
         &:before {
             content: "";
@@ -27,9 +60,13 @@
             bottom: 0;
             left: 0;
             z-index: -1;
-            margin: -3px;
+            margin: -2px;
             border-radius: inherit;
             background: linear-gradient(to right, #ffb24b, #85d5e6);
+            
+            @media (min-width: 768px) {
+                margin: -3px;
+            }
         }
 
         p {
@@ -50,15 +87,24 @@
     display: none;
     z-index: 100;
     position: fixed;
-    right: 0;
-    top: 40%;
+    right: -64px;
+    top: 30%;
     transform: rotate(90deg);
-    padding: 5px 20px;
+    padding: 5px 15px;
     background-color: $yellow_orange;
     color: $background;
-    font-size: 30px;
-    font-weight: 400;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     border: none;
+
+    @media (min-width: 1200px) {
+        top: 40%;
+        font-size: 28px;
+        padding: 5px 20px;
+        right: -105px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
 }

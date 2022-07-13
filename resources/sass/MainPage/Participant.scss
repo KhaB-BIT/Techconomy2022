@@ -1,50 +1,107 @@
 .container-participant {
-    width: 1000px;
+    width: 100%;
     margin: auto;
 
-    .participant--title {
-        margin: 50px 0;
+    @media (min-width: 768px) {
+    }
+    
+    @media (min-width: 1200px) {
+        width: 1000px;
+    }
 
+    .participant--title {
         img {
+            margin: 30px auto;
             display: block;
-            margin: auto;
+            height: 30px;
+
+            @media (min-width: 768px) {
+                height: 50px;
+            }
+            
+            @media (min-width: 1200px) {
+                height: unset;
+                margin: 50px auto;
+            }
         }
     }
 
     .participant {
         display: flex;
+        flex-wrap: wrap;
+        
+        @media (min-width: 1200px) {
+            flex-wrap: unset;
+        }
 
         &__list {
             list-style: none;
+            padding-left: 0;
+
+            @media (min-width: 768px) {
+            }
+            
+            @media (min-width: 1200px) {
+            }
 
             li {
-                width: 80%;
                 display: flex;
                 align-items: center;
                 margin: 10px 0;
 
+                @media (min-width: 1200px) {
+                    width: 80%;
+                }
+                
                 .fa-solid {
-                    margin-right: 15px;
+                    margin-right: 10px;
                     color: #66ffe5;
-                    font-size: 30px;
+                    font-size: 16px;
+
+                    @media (min-width: 768px) {
+                        margin-right: 18px;
+                    }
+                    
+                    @media (min-width: 1200px) {
+                        font-size: 30px;
+                    }
                 }
 
                 .fa-circle-exclamation {
                     color: #f5a623;
                 }
+
                 p {
                     margin-bottom: 0;
-                    font-size: 20px;
+                    font-size: 12px;
+
+                    @media (min-width: 768px) {
+                        font-size: 16px;
+                    }
+                    
+                    @media (min-width: 1200px) {
+                        font-size: 20px;
+                    }
                 }
             }
         }
 
         &__img {
+            margin: auto;
             img {
-                width: 490px;
-                height: 330px;
+                width: 100%;
                 object-fit: cover;
                 border-radius: 10px;
+
+                @media (min-width: 768px) {
+                    width: 490px;
+                    height: 330px;
+                }
+                
+                @media (min-width: 1200px) {
+                    width: 490px;
+                    height: 330px;
+                }
             }
         }
     }

@@ -1,3 +1,4 @@
 require('./bootstrap');
-require('./MainPage/ButtonFixed');
+require('./MainPage/AllButton');
 require('./MainPage/Adviser');
+require('./MainPage/Countdown');
