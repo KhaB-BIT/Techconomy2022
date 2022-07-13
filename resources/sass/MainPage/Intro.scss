@@ -9,7 +9,11 @@
     font-weight: 400;
 
     .intro__title {
-        text-align: center;
+        margin: 50px 0;
+        img {
+            display: block;
+            margin: auto;
+        }
     }
     .intro__content {
         padding: 30px;

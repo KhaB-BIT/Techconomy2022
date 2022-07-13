@@ -1,0 +1,52 @@
+.container-register {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba($color: #000000, $alpha: 0.6);
+
+    .register {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        #register__close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            color: $blue_border;
+            font-size: 32px;
+            cursor: pointer;
+        }
+
+        .register__info {
+            position: absolute;
+            top: 0;
+            right: 20%;
+
+            &--title {
+                font-size: 30px;
+                font-weight: 600;
+                margin: 55px 0;
+            }
+            button {
+                font-size: 20px;
+                font-weight: 500;
+                padding: 5px 10px;
+                min-width: 250px;
+                border-radius: 20px;
+                border: 2px solid $blue_border;
+                background-color: #020611;
+                color: #fff;
+                box-shadow: #0d6efd42 0px 10px 15px -3px, rgb(0 0 0 / 5%) 0px 4px 6px -2px;
+            }
+            &--btnHelp {
+                margin-top: 30px;
+            }
+        }
+    }
+}

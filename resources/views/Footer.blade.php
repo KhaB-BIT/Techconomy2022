@@ -1,5 +1,10 @@
 <footer id="footer">
     <div class="container-footer">
+
+        <div id="scrollToTop">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+        </div>
+
         <img class="footer__background" src="./img/background footer.png" alt="">
         <div class="footer__contact">
             <h1 class="footer__contact--title">LIÊN HỆ</h1>
@@ -44,7 +49,6 @@
             <div class="footer__media--link">
                 <i class="fa-solid fa-envelope"></i>
                 <a target="_blank" href="mailto:et@ueh.edu.vn">et@ueh.edu.vn</a>
-
             </div>
 
             <div class="footer__media--link">
@@ -53,9 +57,9 @@
                     href="https://www.youtube.com/c/C%C3%A2ul%E1%BA%A1cb%E1%BB%99C%C3%B4ngNgh%E1%BB%87KinhT%E1%BA%BF">Youtube
                     Câu lạc bộ Công nghệ kinh tế
                 </a>
-
             </div>
 
         </div>
+
     </div>
 </footer>

@@ -28,8 +28,9 @@ header .navigation {
   display: flex;
   padding: 0 70px;
 }
-header .navigation img {
+header .navigation__logo {
   z-index: 100;
+  margin-top: 20px;
 }
 header .navigation nav {
   display: flex;
@@ -83,12 +84,12 @@ header .banner .banner__info button {
   border-radius: 15px;
   border: none;
 }
-header .banner .banner__scroll-down {
+header .banner .banner__btn-scroll-down {
   position: absolute;
   bottom: -15px;
   left: 50%;
 }
-header .banner .banner__scroll-down i {
+header .banner .banner__btn-scroll-down i {
   text-shadow: 0 0 10px #85d5e6;
   transform: scaleX(1.4);
   color: #85d5e6;
@@ -107,7 +108,11 @@ header .banner .banner__scroll-down i {
   font-weight: 400;
 }
 .container-intro .intro__title {
-  text-align: center;
+  margin: 50px 0;
+}
+.container-intro .intro__title img {
+  display: block;
+  margin: auto;
 }
 .container-intro .intro__content {
   padding: 30px;
@@ -459,11 +464,24 @@ header .banner .banner__scroll-down i {
   max-width: 1440px;
   margin: 50px 0;
 }
+.container-footer #scrollToTop {
+  position: absolute;
+  top: -100px;
+  z-index: 100;
+  right: 0;
+  font-size: 70px;
+  background: linear-gradient(to bottom, #FFB24B, #85D5E6);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  cursor: pointer;
+}
 .container-footer .footer__background {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+  padding-bottom: 30px;
 }
 .container-footer .footer__contact--title,
 .container-footer .footer__media--title {
@@ -518,4 +536,115 @@ header .banner .banner__scroll-down i {
 .container-footer .footer__media--link i {
   font-size: 25px;
   color: #fff;
+}
+
+.container-register {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.container-register .register {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container-register .register #register__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #85D5E6;
+  font-size: 32px;
+  cursor: pointer;
+}
+.container-register .register .register__info {
+  position: absolute;
+  top: 0;
+  right: 20%;
+}
+.container-register .register .register__info--title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 55px 0;
+}
+.container-register .register .register__info button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px 10px;
+  min-width: 250px;
+  border-radius: 20px;
+  border: 2px solid #85D5E6;
+  background-color: #020611;
+  color: #fff;
+  box-shadow: rgba(13, 110, 253, 0.2588235294) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.container-register .register .register__info--btnHelp {
+  margin-top: 30px;
+}
+
+.container-countdown .countdown {
+  position: relative;
+  width: 660px;
+  padding: 30px;
+  margin: auto;
+  border-radius: 30px;
+  border: 3px solid #85D5E6;
+}
+.container-countdown .countdown .countdown__title {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+.container-countdown .countdown .countdown__time {
+  display: flex;
+  justify-content: center;
+}
+.container-countdown .countdown .countdown__time .countdown__time--detail {
+  min-width: 100px;
+  text-align: center;
+}
+.container-countdown .countdown .countdown__time .countdown__time--detail span {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+}
+.container-countdown .countdown .countdown__time .countdown__time--detail .time {
+  font-size: 45px;
+  font-weight: 700;
+  color: #F5A623;
+}
+.container-countdown .countdown .countdown-bottom-left {
+  position: absolute;
+  bottom: -25px;
+  left: -25px;
+}
+.container-countdown .countdown .countdown-top-right {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+}
+.container-countdown .countdown .countdown-line-1 {
+  position: absolute;
+  top: -25px;
+  left: 100px;
+}
+.container-countdown .countdown .countdown-line-2 {
+  position: absolute;
+  bottom: -25px;
+  right: 150px;
+}
+.container-countdown .countdown .countdown-dot-1 {
+  position: absolute;
+  top: -15px;
+  left: 50px;
+}
+.container-countdown .countdown .countdown-dot-2 {
+  position: absolute;
+  bottom: -15px;
+  left: 130px;
 }

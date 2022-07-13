@@ -8,4 +8,6 @@
     @include('MainPage.Award')
     @include('MainPage.Partner')
     @include('MainPage.Adviser')
+    @include('MainPage.Register')
+    @include('MainPage.Countdown')
 @endsection

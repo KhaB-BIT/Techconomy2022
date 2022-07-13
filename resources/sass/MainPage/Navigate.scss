@@ -7,8 +7,9 @@ header {
         display: flex;
         padding: 0 70px;
 
-        img {
+        &__logo {
             z-index: 100;
+            margin-top: 20px;
         }
 
         nav {
@@ -48,15 +49,18 @@ header {
                 font-size: 36px;
                 font-weight: 200;
             }
+
             &--text:nth-child(2) {
                 font-size: 80px;
                 font-weight: 800;
                 text-shadow: 0 0 10px #dadae2;
             }
+
             &--text:nth-child(3) {
                 font-size: 42px;
                 font-weight: 600;
             }
+
             button {
                 padding: 5px 20px;
                 margin: 120px 0 0 120px;
@@ -69,7 +73,7 @@ header {
             }
         }
 
-        .banner__scroll-down {
+        .banner__btn-scroll-down {
             position: absolute;
             bottom: -15px;
             left: 50%;
@@ -82,5 +86,4 @@ header {
             }
         }
     }
-
 }

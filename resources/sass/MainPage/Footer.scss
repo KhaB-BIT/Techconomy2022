@@ -3,11 +3,25 @@
     max-width: 1440px;
     margin: 50px 0;
 
+    #scrollToTop {
+        position: absolute;
+        top: -100px;
+        z-index: 100;
+        right: 0;
+        font-size: 70px;
+        background: linear-gradient(to bottom, #FFB24B, #85D5E6
+        ); 
+        background-clip: text;
+        color: transparent;
+        cursor: pointer;
+    }
+
     .footer__background {
         position: absolute;
         top: 0;
         left: 50%;
         transform: translateX(-50%);
+        padding-bottom: 30px;
     }
 
     .footer__contact--title,

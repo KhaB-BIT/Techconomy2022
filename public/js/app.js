@@ -2181,10 +2181,10 @@ $('.owl-carousel').owlCarousel({
 
 /***/ }),
 
-/***/ "./resources/js/MainPage/ButtonFixed.js":
-/*!**********************************************!*\
-  !*** ./resources/js/MainPage/ButtonFixed.js ***!
-  \**********************************************/
+/***/ "./resources/js/MainPage/AllButton.js":
+/*!********************************************!*\
+  !*** ./resources/js/MainPage/AllButton.js ***!
+  \********************************************/
 /***/ (() => {
 
 var btn_fixed = document.getElementById('fixed-button');
@@ -2197,7 +2197,75 @@ document.onscroll = function () {
   } else {
     btn_fixed.style.display = 'none';
   }
+}; //xu ly dong - mo button dang ky
+
+
+var closePopup = document.getElementById('register__close');
+var containerRegister = document.querySelector('.container-register');
+var btnRegister = document.getElementById('button--register');
+
+btnRegister.onclick = function () {
+  containerRegister.style.display = 'block';
 };
+
+btn_fixed.onclick = function () {
+  containerRegister.style.display = 'block';
+};
+
+closePopup.onclick = function () {
+  containerRegister.style.display = 'none';
+}; //scroll to top
+
+
+document.getElementById('scrollToTop').addEventListener("click", function () {
+  //Nếu button được click thì nhảy về đầu trang
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+
+/***/ }),
+
+/***/ "./resources/js/MainPage/Countdown.js":
+/*!********************************************!*\
+  !*** ./resources/js/MainPage/Countdown.js ***!
+  \********************************************/
+/***/ (() => {
+
+// const countDown = new Date("09/30/2022").getTime()
+// x = setInterval(function () {
+//     const now = new Date().getTime()
+//     distance = countDown - now;
+//     document.getElementById("days").innerText = Math.floor(distance / (day)),
+//     document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+//     document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+//     document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+// }, 0)
+(function () {
+  var second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+  var today = new Date(),
+      dd = String(today.getDate()).padStart(2, "0"),
+      mm = String(today.getMonth() + 1).padStart(2, "0"),
+      yyyy = today.getFullYear(),
+      nextYear = yyyy + 1,
+      dayMonth = "08/15/",
+      birthday = dayMonth + yyyy;
+  today = mm + "/" + dd + "/" + yyyy;
+  var countDown = new Date(birthday).getTime(),
+      x = setInterval(function () {
+    var now = new Date().getTime(),
+        distance = countDown - now;
+    document.getElementById("days").innerText = Math.floor(distance / day), document.getElementById("hours").innerText = Math.floor(distance % day / hour), document.getElementById("minutes").innerText = Math.floor(distance % hour / minute), document.getElementById("seconds").innerText = Math.floor(distance % minute / second);
+
+    if (distance < 0) {
+      document.getElementById("days").innerText = "00", document.getElementById("hours").innerText = "00", document.getElementById("minutes").innerText = "00", document.getElementById("seconds").innerText = "00";
+      document.querySelector('.countdown__title').innerText = "Hết thời gian đăng ký rồi !";
+      clearInterval(x);
+    }
+  }, 0);
+})();
 
 /***/ }),
 
@@ -2209,9 +2277,11 @@ document.onscroll = function () {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-__webpack_require__(/*! ./MainPage/ButtonFixed */ "./resources/js/MainPage/ButtonFixed.js");
+__webpack_require__(/*! ./MainPage/AllButton */ "./resources/js/MainPage/AllButton.js");
 
 __webpack_require__(/*! ./MainPage/Adviser */ "./resources/js/MainPage/Adviser.js");
+
+__webpack_require__(/*! ./MainPage/Countdown */ "./resources/js/MainPage/Countdown.js");
 
 /***/ }),
 
