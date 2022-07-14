@@ -5,15 +5,10 @@
         </div>
         <div class="rule">
             <ul class="rule__list">
-                <li>- Sinh viên đăng ký theo nhóm 3 - 5 người hoặc chọn hỗ trợ ghép nhóm nếu không có đủ số lượng thành
-                    viên.</li>
-                <li>- Lệ phí tham gia là 10.000đ/người, chuyển khoản qua MoMo theo thông tin đính kèm khi đăng ký.
-                </li>
-                <li>- Ý tưởng không được sao chép từ các dự án đã có; BTC không chịu trách nhiệm đối với mọi vấn đề về
-                    bản quyền, ý tưởng.
-                </li>
-                <li>- BTC có quyền …
-                </li>
+                <li>Ý tưởng của các bài dự thi không được sao chép từ các dự án đã có.</li>
+                <li>BTC không chịu trách nhiệm đối với mọi vấn đề về vi phạm bản quyền, ý tưởng của các thí sinh.</li>
+                <li>BTC và các đơn vị đồng hành được quyền sử dụng tất cả các ý tưởng dự thi của các đội thi.</li>
+                <li>BTC có quyền hủy tư cách thi của các đội nếu thấy có bất kỳ dấu hiệu vi phạm hoặc gian lận trong cuộc thi.</li>
             </ul>
             <img class="bottom-left rule-bottom-left" src="/img/Line 59.png" alt="">
             <img class="top-right rule-top-right" src="/img/Line 61.png" alt="">

@@ -45,8 +45,11 @@
             padding-left: 10px;
             margin: 0;
 
+            @media (min-width: 1200px) {
+                padding-left: 30px;
+            }
+
             li {
-                list-style: none;
                 font-size: 12px;
 
                 @media (min-width: 768px) {

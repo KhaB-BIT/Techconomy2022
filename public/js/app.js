@@ -2162,16 +2162,23 @@ module.exports = {
   \******************************************/
 /***/ (() => {
 
-$('.owl-carousel').owlCarousel({
+$(".owl-carousel").owlCarousel({
   loop: true,
   margin: 10,
   nav: false,
+  autoPlay: true,
   responsive: {
     0: {
-      items: 1
+      items: 1,
+      dots: false,
+      pagination: false,
+      dotsEach: false
     },
     600: {
-      items: 1
+      items: 1,
+      dots: false,
+      pagination: false,
+      dotsEach: false
     },
     1000: {
       items: 1
@@ -2193,10 +2200,20 @@ document.onscroll = function () {
   var scrollTop = window.scrollY || document.documentElement.scrollTop;
   var widthDevice = screen.availWidth;
 
-  if (scrollTop > 600 && widthDevice >= 768) {
-    btn_fixed.style.display = 'block';
+  if (widthDevice >= 1200) {
+    if (scrollTop > 600) {
+      btn_fixed.style.display = 'block';
+    } else {
+      btn_fixed.style.display = 'none';
+    }
   } else {
-    btn_fixed.style.display = 'none';
+    if (widthDevice >= 768 && scrollTop > 300) {
+      if (scrollTop > 300) {
+        btn_fixed.style.display = 'block';
+      } else {
+        btn_fixed.style.display = 'none';
+      }
+    }
   }
 }; //xu ly dong - mo dang ky
 
@@ -2215,12 +2232,36 @@ btn_fixed.onclick = function () {
 
 closePopup.onclick = function () {
   containerRegister.style.display = 'none';
-}; // //scroll to top
-// document.getElementById('scrollToTop').addEventListener("click", function () {
-//     //Nếu button được click thì nhảy về đầu trang
-//     document.body.scrollTop = 0;
-//     document.documentElement.scrollTop = 0;
-// });
+}; //scroll to top
+
+
+document.getElementById('scrollToTop').addEventListener("click", function () {
+  //Nếu button được click thì nhảy về đầu trang
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}); //xử lý đóng mở nav mobile
+
+var navMobile = document.getElementById('nav-mobile');
+document.getElementById('menu-mobile').addEventListener("click", function () {
+  navMobile.classList.toggle('open');
+});
+document.getElementById('nav-mobile--close').addEventListener("click", function () {
+  navMobile.classList.toggle('open');
+});
+document.querySelectorAll('.nav__link').forEach(function (el) {
+  return el.addEventListener("click", function () {
+    navMobile.classList.toggle('open');
+  });
+});
+
+document.onscroll = function () {
+  var scrollTop1 = window.scrollY || document.documentElement.scrollTop;
+  console.log(scrollTop1);
+
+  if (scrollTop1 > 10) {
+    navMobile.classList.remove('open');
+  }
+};
 
 /***/ }),
 
@@ -2276,11 +2317,11 @@ closePopup.onclick = function () {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-__webpack_require__(/*! ./MainPage/AllButton */ "./resources/js/MainPage/AllButton.js");
-
 __webpack_require__(/*! ./MainPage/Adviser */ "./resources/js/MainPage/Adviser.js");
 
 __webpack_require__(/*! ./MainPage/Countdown */ "./resources/js/MainPage/Countdown.js");
+
+__webpack_require__(/*! ./MainPage/AllButton */ "./resources/js/MainPage/AllButton.js");
 
 /***/ }),
 

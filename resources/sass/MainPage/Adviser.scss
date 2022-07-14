@@ -1,60 +1,127 @@
 .container-adviser {
     margin-top: 100px;
-
-    .adviser--title {
-        img{
-            display: block;
-            margin: 50px auto;
+    @media (min-width: 1200px) {
+        .adviser--title {
+            display: block !important;
+            img {
+                display: block;
+                margin: 50px auto;
+            }
         }
+        .adviser--title__mobile {
+            display: none;
+        }
+    }
+    .adviser--title__mobile {
+        img {
+            display: block;
+            margin: 30px auto;
+        }
+    }
+    .adviser--title {
+        display: none;
     }
 
     .main-item {
-        width: 850px;
+        width: 310px;
         margin: 50px auto;
         position: relative;
+        margin: 0 auto 150px;
+        @media (min-width: 1200px) {
+            width: 850px;
+            margin: 50px auto;
+        }
 
         .main-item__img {
-            width: 440px;
-            height: 550px;
+            margin: 0 auto;
+            width: 160px;
+            height: 200px;
             object-fit: cover;
             border-radius: 25px;
-            filter: drop-shadow(10px 5px 20px rgba(133, 213, 230, 0.3))
+            filter: drop-shadow(10px 5px 20px rgba(133, 213, 230, 0.3));
+            position: relative;
+            z-index: 1;
+            @media (min-width: 1200px) {
+                margin: 0;
+                width: 440px;
+                height: 550px;
+                z-index: 0;
+            }
         }
         .main-item__info {
             position: absolute;
-            top: 50%;
             right: 0;
-            max-width: 440px;
-            padding: 20px 30px;
+            top: 127%;
+            max-width: 310px;
+            padding: 30px 20px;
             transform: translateY(-50%);
-            border-radius: 30px;
-            border: 3px solid $blue_border;
             background: linear-gradient(
-                90deg,
-                #85d5e6 0%,
-                rgba(133, 213, 230, 0.85) 23.56%,
-                rgba(133, 213, 230, 0.45) 51.29%,
-                rgba(133, 213, 230, 0.15) 76.6%,
-                rgba(133, 213, 230, 0) 94.44%
+                180deg,
+                #85d5e6 63%,
+                rgba(189, 221, 239, -0.15) 95.56%,
+                rgba(141, 213, 230, 0.45) 49.29%,
+                rgba(133, 213, 230, 0.15) 95.6%,
+                rgba(133, 213, 230, 0) 76.44%
             );
-
+            border-radius: 30px;
+            display: inline-block;
+            @media (min-width: 1200px) {
+                top: 50%;
+                max-width: 440px;
+                padding: 20px 30px;
+                background: linear-gradient(
+                    90deg,
+                    #85d5e6 0%,
+                    rgba(133, 213, 230, 0.85) 23.56%,
+                    rgba(133, 213, 230, 0.45) 51.29%,
+                    rgba(133, 213, 230, 0.15) 76.6%,
+                    rgba(133, 213, 230, 0) 94.44%
+                );
+                border-radius: 30px;
+                border: 3px solid $blue_border;
+            }
             &--name,
             &--detail {
-                font-size: 20px;
-                font-weight: 500;
-            }
+                margin-bottom: 0 !important;
 
+                font-size: 10px;
+                font-weight: 500;
+                font-family: "Montserrat";
+                font-style: normal;
+                @media (min-width: 1200px) {
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+            &--name {
+                @media (min-width: 1200px) {
+                    font-size: 20px;
+                    font-weight: 800;
+                }
+                font-size: 15px;
+                font-weight: 800;
+            }
             .item-bottom-left {
                 position: absolute;
                 width: unset;
-                bottom: -25px;
-                left: -25px;
+                bottom: -31px;
+                left: -33px;
+                transform: scale(0.7);
+                @media (min-width: 1200px) {
+                    transform: scale(1);
+                    bottom: -25px;
+                    left: -25px;
+                }
             }
             .item-top-right {
                 position: absolute;
                 width: unset;
                 top: -25px;
                 right: -25px;
+                transform: scale(0.8);
+                @media (min-width: 1200px) {
+                    transform: scale(1);
+                }
             }
             .item-line-top {
                 position: absolute;
@@ -65,8 +132,14 @@
             .item-line-bottom {
                 position: absolute;
                 width: unset;
-                bottom: -25px;
-                left: 40%;
+                left: 33%;
+                transform: scale(0.8);
+                bottom: -24px;
+                @media (min-width: 1200px) {
+                    bottom: -25px;
+                    left: 40%;
+                    transform: scale(1);
+                }
             }
             .item-dot {
                 width: unset;
@@ -74,17 +147,84 @@
             .item-dot-1 {
                 position: absolute;
                 top: -15px;
+                transform: scale(0.8);
+                @media (min-width: 1200px) {
+                    transform: scale(1);
+                }
             }
 
             .item-dot-2 {
                 position: absolute;
                 bottom: -15px;
-                left: 120px;
+                left: 70px;
+                transform: scale(0.8);
+                @media (min-width: 1200px) {
+                    transform: scale(1);
+                    left: 120px;
+                }
             }
             .item-dot-3 {
                 position: absolute;
                 bottom: -15px;
                 right: 25px;
+                transform: scale(0.8);
+                @media (min-width: 1200px) {
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+    .owl-dots {
+        button.owl-dot {
+            &:hover {
+                span {
+                    background-image: linear-gradient(
+                        to right,
+                        #85d5e6,
+                        #71d6db
+                    );
+                }
+            }
+        }
+        .owl-dot {
+            span {
+                background: #3f3356 !important;
+                border: 1px solid #71d6db;
+                width: 7px !important;
+                height: 7px !important;
+                margin: 5px 4px !important;
+
+                @media (min-width: 576px) {
+                    width: 10px !important;
+                    height: 10px !important;
+                    margin: 5px 7px !important;
+                }
+
+                &:hover {
+                    background-image: linear-gradient(
+                        to right,
+                        #85d5e6,
+                        #71d6db
+                    );
+                }
+            }
+        }
+        .owl-dot.active {
+            span {
+                width: 17px !important;
+                background-image: linear-gradient(
+                    to right,
+                    #85d5e6,
+                    #71d6db
+                ) !important;
+
+                @media (min-width: 576px) {
+                    width: 20px !important;
+                }
+
+                @media (min-width: 1200px) {
+                    width: 25px !important;
+                }
             }
         }
     }

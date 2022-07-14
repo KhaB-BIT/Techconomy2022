@@ -14,7 +14,7 @@ header {
         @media (min-width: 1200px) {
             padding: 0 70px;
         }
- 
+
         &__logo {
             z-index: 100;
             margin-top: 10px;
@@ -31,29 +31,64 @@ header {
             }
         }
 
-        nav {
-            display: none;
-            margin-left: 50px;
+        &__menu {
             z-index: 100;
+            position: absolute;
+            margin-top: 10px;
+            right: 15px;
 
-            @media (min-width:768px) {
+            @media (min-width: 768px) {
+                display: none;
+            }
+        }
+
+        nav {
+            background: $background;
+            display: none;
+            flex-direction: column;
+            width: 200px;
+            z-index: 101;
+            position: absolute;
+            right: 0;
+            border-bottom-left-radius: 5px;
+            box-shadow: 0px 0px 20px 0px #0d6efd66;
+
+            @media (min-width: 768px) {
                 display: flex;
                 align-items: center;
+                flex-direction: row;
+                margin-left: 100px;
+                box-shadow: none;
+                border-radius: unset;
+                width: unset;
+                background: unset;
+                right: unset;
+            }
+
+            .nav__close {
+                font-size: 20px;
+                padding: 10px 20px;
+
+                @media (min-width: 768px) {
+                    display: none;
+                }
             }
 
             .nav__link {
-                
                 text-decoration: none;
                 color: #fff;
                 font-weight: 700;
+                margin: 15px 20px;
+                font-size: 12px;
 
                 @media (min-width: 768px) {
+                    margin: 15px 10px;
                     padding: 10px 20px;
                     font-size: 15px;
                 }
 
                 @media (min-width: 1200px) {
-                    padding: 10px 35px;
+                    padding: 10px 43px;
                     font-size: 20px;
                 }
 
@@ -61,6 +96,11 @@ header {
                     opacity: 0.8;
                 }
             }
+        }
+
+        nav.open {
+            display: flex;
+            animation: truottruot .2s ease;
         }
     }
 
@@ -74,7 +114,7 @@ header {
         .banner__img {
             width: 100%;
 
-            @media (min-width:1200px) {
+            @media (min-width: 1200px) {
                 width: unset;
             }
         }
@@ -85,19 +125,19 @@ header {
             transform: translateY(-50%);
             left: 15px;
 
-            @media (min-width:1200px) {
+            @media (min-width: 1200px) {
                 left: 30px;
             }
 
             &--text:first-child {
                 font-size: 13px;
-                font-weight: 200;
+                font-weight: 600;
 
                 @media (min-width: 768px) {
                     font-size: 24px;
                 }
 
-                @media (min-width:1200px) {
+                @media (min-width: 1200px) {
                     font-size: 36px;
                 }
             }
@@ -139,13 +179,17 @@ header {
                 border-radius: 10px;
                 border: none;
 
+                &:hover {
+                    box-shadow: 0px 0px 20px 0px rgb(245 166 35 / 50%);
+                }
+
                 @media (min-width: 768px) {
                     font-size: 18px;
                     padding: 5px 20px;
                     margin: 50px 0 0 50px;
                 }
 
-                @media (min-width:1200px) {
+                @media (min-width: 1200px) {
                     font-size: 32px;
                     padding: 5px 20px;
                     border-radius: 15px;
@@ -160,19 +204,43 @@ header {
             left: 50%;
 
             i {
-                text-shadow: 0 0 10px #85d5e6;
                 transform: scaleX(1.4);
                 color: #85d5e6;
                 font-size: 20px;
+                position: relative;
+                animation: nhaynhay 1.5s ease infinite;
 
-                @media (min-width:1200px) {
+                @media (min-width: 768px) {
                     font-size: 25px;
                 }
 
-                @media (min-width:1200px) {
+                @media (min-width: 1200px) {
                     font-size: 30px;
                 }
             }
         }
+    }
+}
+
+@keyframes nhaynhay {
+    from {
+        top: 0;
+        text-shadow: 0 0 10px rgba(133, 213, 230, 0%);
+    }
+    to {
+        top: 15px;
+        text-shadow: 0 0 10px rgba(133, 213, 230, 100%);
+    }
+}
+
+@keyframes truottruot {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to 
+    {
+        opacity: 1;
+        transform: translateX(0%);
     }
 }

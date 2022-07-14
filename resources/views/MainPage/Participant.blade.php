@@ -15,10 +15,6 @@
                 </li>
                 <li>
                     <i class="fa-solid fa-circle-check"></i>
-                    <p>Hội viên của Hội Sinh viên Việt Nam</p>
-                </li>
-                <li>
-                    <i class="fa-solid fa-circle-check"></i>
                     <p>Độ tuổi từ 18 - 24</p>
                 </li>
                 <li>

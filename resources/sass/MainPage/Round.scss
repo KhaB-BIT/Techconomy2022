@@ -91,7 +91,17 @@
                         font-size: 20px;
                     }
                 }
+                h5 {
+                    margin-bottom: 0px;
 
+                    @media (min-width:768px) {
+                        margin-bottom: 10px;
+                    }
+
+                    @media (min-width:1200px) {
+                        margin-bottom: 20px;
+                    }
+                }
                 .text-shadow {
                     text-shadow: 0 0 15px #dadae2;
                     margin-bottom: 10px;

@@ -19,13 +19,11 @@
                 <ul class="mb-0">
                     <li>Mỗi nhóm nộp <b>01 bản ý tưởng</b> về dự án gồm các nội dung cơ bản theo yêu cầu của BTC, kèm
                         theo
-                        CV của các thành viên trong đội.</li>
-                    <li>Các nhóm làm đúng các yêu cầu trên và Bản ý tưởng đạt điểm >= 6đ (<a href="">theo đúng
-                            tiêu chí của BTC</a>) sẽ được cập nhật điểm rèn luyện.
-                    </li>
+                        CV của các thành viên trong đội trước 23h50p ngày <b>15/8/2022</b></li>
+                    <li>Các nhóm làm đúng <a href="">yêu cầu dự thi Vòng 1</a> sẽ được cập nhật điểm rèn luyện.</li>
                     <li>BTC tiến hành chọn lựa các CV và ý tưởng tiềm năng để phỏng vấn. Vòng phỏng vấn diễn ra từ
                         ngày <b>19/08/2022</b> đến <b>22/08/2022</b>.</li>
-                    <li>Ngày <b>23/08/2022</b>, BTC sẽ công bố 15-20 đội được vào vòng 2</li>
+                    <li>Ngày <b>23/08/2022</b>, BTC sẽ công bố 16-20 đội được vào vòng 2</li>
                 </ul>
                 <img class="top-right" src="./img/top right.png" alt="">
                 <img class="bottom-left" src="./img/bottom left.png" alt="">
@@ -84,7 +82,7 @@
                     <li>Tổ chức workshop về cách triển khai chiến lược kinh doanh, nâng cao tính thương mại hóa cho các
                         đội thi.
                     </li>
-                    <li>Các đội thi tiếp tục phát triển sản phẩm, nộp lại source code dự án và một file propsal báo cáo
+                    <li>Các đội thi tiếp tục phát triển sản phẩm, nộp lại source code dự án và 01 file propsal báo cáo
                         về tổng quan và tiến độ dự án.
                     </li>
                     <li>Ngày <b>15/11/2022</b>, các đội cùng chung mentor sẽ trình bày cho mentor và BTC về dự án của
