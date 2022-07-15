@@ -9,5 +9,6 @@
     @include('MainPage.Adviser')
     @include('MainPage.Partner')
     @include('MainPage.Register')
+    @include('MainPage.FAQ')
     @include('MainPage.Countdown')
 @endsection

@@ -2299,6 +2299,35 @@ document.querySelectorAll('.nav__link').forEach(function (el) {
 
 /***/ }),
 
+/***/ "./resources/js/MainPage/FAQ.js":
+/*!**************************************!*\
+  !*** ./resources/js/MainPage/FAQ.js ***!
+  \**************************************/
+/***/ (() => {
+
+$('.question-1').click(function () {
+  $('.drop-down-1').toggleClass("rotate");
+  $('.answer-1').toggleClass("display");
+});
+$('.question-2').click(function () {
+  $('.drop-down-2').toggleClass("rotate");
+  $('.answer-2').toggleClass("display");
+});
+$('.question-3').click(function () {
+  $('.drop-down-3').toggleClass("rotate");
+  $('.answer-3').toggleClass("display");
+});
+$('.question-4').click(function () {
+  $('.drop-down-4').toggleClass("rotate");
+  $('.answer-4').toggleClass("display");
+});
+$('.question-5').click(function () {
+  $('.drop-down-5').toggleClass("rotate");
+  $('.answer-5').toggleClass("display");
+});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -2312,6 +2341,8 @@ __webpack_require__(/*! ./MainPage/AllButton */ "./resources/js/MainPage/AllButt
 __webpack_require__(/*! ./MainPage/Adviser */ "./resources/js/MainPage/Adviser.js");
 
 __webpack_require__(/*! ./MainPage/Countdown */ "./resources/js/MainPage/Countdown.js");
+
+__webpack_require__(/*! ./MainPage/FAQ */ "./resources/js/MainPage/FAQ.js");
 
 /***/ }),
 
