@@ -114,7 +114,6 @@
         <p class="question-5_content question_content">Tham gia cuộc thi có được cập nhật ĐRL không?</p>
         <div class="drop-down-5"><i class="far fa-angle-down"></i></div>
     </div>
-    <div class="line"></div>
     <div class="answer answer-5">
         <div>
             <i class="fas fa-circle"></i>&nbsp;<span class="bold italic">Đối với thí sinh là sinh viên UEH</span>, nếu đội thi làm đúng <span class="underline">yêu cầu dự thi vòng 1</span> sẽ được cập nhật MSSV.
