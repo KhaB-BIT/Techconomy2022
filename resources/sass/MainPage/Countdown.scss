@@ -1,19 +1,45 @@
 .container-countdown {
     margin: 50px 0;
+    display: flex;
+
+    @media (min-width: 768px) {
+        padding-left: 15px;
+    }
+
+    @media (min-width: 1200px) {
+        padding-left: 100px;
+    }
+
+    .countdown--watch {
+        display: none;
+
+        @media (min-width: 768px) {
+            display: block;
+            transform: translate(-150px, -38px) scale(0.8);
+        }
+
+        @media (min-width: 1200px) {
+            display: block;
+            transform: translate(-170px, -80px) scale(1);
+        }
+    }
+
     .countdown {
         position: relative;
-        width: 100%;
-        padding: 30px;
+        padding: 20px 30px;
         margin: auto;
         border-radius: 30px;
         border: 2px solid $blue_border;
 
         @media (min-width: 768px) {
+            width: 100%;
+            padding: 25px;
             width: 660px;
             border: 3px solid $blue_border;
         }
         
         @media (min-width: 1200px) {
+            padding: 30px;
         }
 
         .countdown__title {
@@ -22,6 +48,10 @@
             text-align: center;
 
             @media (min-width: 768px) {
+                font-size: 24px;
+            }
+
+            @media (min-width: 1200px) {
                 font-size: 35px;
             }
         }
@@ -44,18 +74,21 @@
                     color: #fff;
                     
                     @media (min-width: 768px) {
-                        font-size: 25px;
+                        font-size: 24px;
                     }
                 }
 
                 .time {
-                    font-size: 30px;
+                    font-size: 28px;
                     font-weight: 700;
                     color: $yellow_orange;
 
                     @media (min-width: 768px) {
-                        font-size: 45px;
-                        
+                        font-size: 32px;        
+                    }
+
+                    @media (min-width: 768px) {
+                        font-size: 45px; 
                     }
                 }
             }
@@ -136,5 +169,6 @@
                 transform: scale(1);
             }
         }
+
     }
 }

@@ -1,59 +1,211 @@
 .award--title {
-
-    margin: 50px 0;
-
     img {
-        
+        margin: 30px auto;
         display: block;
-        margin: auto;
+        height: 30px;
+
+        @media (min-width: 768px) {
+            height: 50px;
+        }
+
+        @media (min-width: 1200px) {
+            height: unset;
+            margin: 50px auto;
+        }
     }
 }
 
-.container-award {
+@media (min-width: 768px) {
+                    
+}
 
-    max-width: 1100px;
+@media (min-width: 1200px) {
+
+}
+
+.container-award {
     margin: auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    background-color: $background;
+    background-image: url('/img/background award.png');
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size: contain;
+    
+    @media (min-width: 1200px) {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
     .award {
+        width: 100%;
+        margin: 40px auto;
+        position: relative;
 
-        margin: 30px 0;
-
-        .award__rank {
-            width: 320px;
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 27px;
+        @media (min-width: 768px) {
+            width: 500px; 
+            margin: 50px auto;
+        }
+        
+        .award__img {
+            img {
+                width: 100%;
+            }
         }
 
         .award__info {
+            position: absolute;
 
-            width: 320px;
-            height: 390px;
-            padding-top: 60px;
-            background-image: url('/img/border award.png');
-            background-repeat: no-repeat;
-            
-            .award__info--detail {
-                display: block;
-                text-align: center;
-                font-size: 23px;
-                margin: 5px 0;
+            &--rank {
+                font-size: 15px;
+                font-weight: 600;
+                color: $yellow_orange;
+                text-shadow: 0px 0px 6px #f5a623;
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+
+                @media (min-width: 1200px) {
+                    font-size: 30px;
+                }
+            }
+
+            &--detail {
+                font-size: 13px;
+                font-weight: 500;
+                margin-top: 10px;
+
+                @media (min-width: 768px) {
+                    font-size: 18px;
+                }
+                
+                @media (min-width: 1200px) {
+                    font-size: 20px;
+                }
 
                 img {
-                    margin-right: 5px;
+                    transform: scale(0.7);
+                    margin-right: 1px;
+
+                    @media (min-width: 768px) {
+                        transform: scale(0.8);
+                        margin-right: 3px;
+                    }
+
+                    @media (min-width: 1200px) {
+                        transform: scale(1);
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            &--money {
+                font-size: 15px;
+                font-weight: 600;
+                color: $yellow_orange;
+
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                }
+                
+                @media (min-width: 1200px) {
+                    font-size: 30px;
                 }
             }
         }
     }
 
-    .award:first-child {
-        margin-top: 100px;
-    }
-    .award:nth-child(3) {
-        margin-top: 200px;
+    .award:nth-child(1) {
+
+        width: 100%;
+        
+        @media (min-width: 768px) {
+            width: 500px;
+            
+        }
+        
+        @media (min-width: 1200px) {
+            width: 100%;
+            left: 50%;
+            transform: translateX(-250px);
+        }
+        
+        .award__img {
+            width: 100%;
+
+            @media (min-width: 768px) {
+                width: 500px;
+            }
+        }
+        .award__info {
+            top: -25px;
+            left: 100px;
+
+            @media (min-width: 768px) {
+                top: -35px;
+                left: 125px;
+            }
+            
+        }
     }
 
+    .award:nth-child(2) {
+        .award__info {
+            top: -25px;
+            left: 100px;
+
+            @media (min-width: 768px) {
+                top: -35px;
+                left: 125px;
+            }
+        }
+    }
+
+    .award:nth-child(3) {
+        .award__info {
+            top: -20px;
+            left: 30px;
+
+            @media (min-width: 768px) {
+                top: -35px;
+                left: 35px;
+            }
+        }
+    }
+
+    .award:nth-child(4) {
+
+        .award__info {
+            top: -35px;
+            left: 100px;
+
+            @media (min-width: 768px) {
+                top: -50px;
+                left: 125px;
+            }
+        }
+
+        .award__info--rank {
+            color: #82d1e1;
+            text-shadow: 0px 0px 6px #82d1e1;
+        }
+        
+    }
+
+    .award:nth-child(5) {
+        .award__info {
+            top: -35px;
+            left: 30px;
+
+            @media (min-width: 768px) {
+                top: -50px;
+                left: 35px;
+            }
+        }
+        .award__info--rank {
+            color: #82d1e1;
+            text-shadow: 0px 0px 6px #82d1e1;
+        }
+
+    }
 }

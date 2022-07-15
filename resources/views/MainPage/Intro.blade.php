@@ -15,6 +15,12 @@
                     và Logistics,</b><b> TECHCONOMY 2022 - THE NEW GLOBAL CONTEXT</b> hứa hẹn sẽ là bàn đạp thúc đẩy tiềm năng của mỗi
                 thí sinh để tạo nên những giải pháp công nghệ đột phá, thiết thực.
             </p>
+
+            <div class="intro__content--booklet">
+                <a href="">
+                    <b class="orange">XEM BOOKLET &emsp;<i class="fa-solid fa-right-long"></i></b>
+                </a>
+            </div>
         </div>
     </div>
 

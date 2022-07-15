@@ -98,6 +98,12 @@
                     padding: 5px 10px;
                     min-width: 250px;
                 }
+
+                &:hover {
+                    color:#0E1643;
+                    font-weight: 600;
+                    background-color: #85D5E6;
+                }
             }
             &--btnHelp {
                 margin-top: 10px;

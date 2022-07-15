@@ -2196,22 +2196,20 @@ $(".owl-carousel").owlCarousel({
 var btn_fixed = document.getElementById('fixed-button');
 
 document.onscroll = function () {
-  var scrollTop = window.scrollY || document.documentElement.scrollTop;
+  var getHeight = window.scrollY || document.documentElement.scrollTop;
   var widthDevice = screen.availWidth;
 
   if (widthDevice >= 1200) {
-    if (scrollTop > 600) {
+    if (getHeight > 600) {
       btn_fixed.style.display = 'block';
     } else {
       btn_fixed.style.display = 'none';
     }
   } else {
-    if (widthDevice >= 768 && scrollTop > 300) {
-      if (scrollTop > 300) {
-        btn_fixed.style.display = 'block';
-      } else {
-        btn_fixed.style.display = 'none';
-      }
+    if (widthDevice >= 768 && getHeight > 300) {
+      btn_fixed.style.display = 'block';
+    } else {
+      btn_fixed.style.display = 'none';
     }
   }
 }; //xu ly dong - mo dang ky
@@ -2252,15 +2250,6 @@ document.querySelectorAll('.nav__link').forEach(function (el) {
     navMobile.classList.toggle('open');
   });
 });
-
-document.onscroll = function () {
-  var scrollTop1 = window.scrollY || document.documentElement.scrollTop;
-  console.log(scrollTop1);
-
-  if (scrollTop1 > 10) {
-    navMobile.classList.remove('open');
-  }
-};
 
 /***/ }),
 
@@ -2316,11 +2305,11 @@ document.onscroll = function () {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+__webpack_require__(/*! ./MainPage/AllButton */ "./resources/js/MainPage/AllButton.js");
+
 __webpack_require__(/*! ./MainPage/Adviser */ "./resources/js/MainPage/Adviser.js");
 
 __webpack_require__(/*! ./MainPage/Countdown */ "./resources/js/MainPage/Countdown.js");
-
-__webpack_require__(/*! ./MainPage/AllButton */ "./resources/js/MainPage/AllButton.js");
 
 /***/ }),
 

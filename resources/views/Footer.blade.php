@@ -1,4 +1,31 @@
 <footer id="footer">
+
+    <div class="container-footer-mobile">
+        <img src="./img/background footer mobile.png" alt="">
+
+        <div class="footer-mobile__contact">
+            <h1 class="footer-mobile__contact--title">LIÊN HỆ</h1>
+            <div class="footer-mobile__contact--phone">
+                <div class="circle-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <a target="_blank" href="tel:+84975961691"><span>097 5961 691</span> - Trúc Khang <br>Chủ nhiệm ET Club</a>
+            </div>
+            <div class="footer-mobile__contact--phone">
+                <div class="circle-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <a target="_blank" href="tel:+84962524918"><span>096 2524 918</span> - Xuân Mai <br>Phó chủ nhiệm ET CLub</a>
+            </div>
+            <div class="footer-mobile__contact--phone">
+                <div class="circle-icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <a target="_blank" href="tel:+84848089246"><span>084 8089 246</span> - Thảo Nguyên <br>Trưởng ban Truyền thông</a>
+            </div>
+        </div>
+    </div>
+
     <div class="container-footer">
 
         <div id="scrollToTop">
@@ -43,7 +70,7 @@
 
             <div class="footer__media--link">
                 <i class="fa-brands fa-facebook"></i>
-                <a target="_blank" href="">Group chính thức TECHCONOMY 2022</a>
+                <a target="_blank" href="https://www.facebook.com/groups/583637149791448/">Group chính thức TECHCONOMY 2022</a>
             </div>
 
             <div class="footer__media--link">
