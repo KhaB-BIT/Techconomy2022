@@ -115,7 +115,12 @@ body {
   margin: 0;
 }
 .question .answer .fa-circle {
-  font-size: 5px;
+  font-size: 2px;
+}
+@media (min-width: 992px) {
+  .question .answer .fa-circle {
+    font-size: 5px;
+  }
 }
 .question .answer .fa-exclamation-triangle {
   color: yellow;
