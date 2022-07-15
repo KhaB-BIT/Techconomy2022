@@ -9,7 +9,7 @@
                 <div class=round__time--detail>
                     <h5>Vòng 1</h5>
                     <h6 class="text-shadow">Nộp CV & Ý tưởng</h6>
-                    <h6>15/07/2022</h6>
+                    <h6>16/07/2022</h6>
                     <h6>&minus;</h6>
                     <h6>23/08/2022</h6>
                 </div>
@@ -20,7 +20,7 @@
                     <li>Mỗi nhóm nộp <b>01 bản ý tưởng</b> về dự án gồm các nội dung cơ bản theo yêu cầu của BTC, kèm
                         theo
                         CV của các thành viên trong đội trước 23h50p ngày <b>15/8/2022</b></li>
-                    <li>Các nhóm làm đúng <a href="">yêu cầu dự thi Vòng 1</a> sẽ được cập nhật điểm rèn luyện.
+                    <li>Các nhóm làm đúng <a href="https://drive.google.com/file/d/1zOLg1CJ38eo1V8OHHtBzOvh2hRNU393M/view?usp=sharing" target="_blank">yêu cầu dự thi Vòng 1</a> sẽ được cập nhật điểm rèn luyện.
                     </li>
                     <li>BTC tiến hành chọn lựa các CV và ý tưởng tiềm năng để phỏng vấn. Vòng phỏng vấn diễn ra từ
                         ngày <b>19/08/2022</b> đến <b>22/08/2022</b>.</li>

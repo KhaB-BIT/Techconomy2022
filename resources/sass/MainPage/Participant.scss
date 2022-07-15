@@ -4,7 +4,7 @@
 
     @media (min-width: 768px) {
     }
-    
+
     @media (min-width: 1200px) {
         width: 1000px;
     }
@@ -18,10 +18,14 @@
             @media (min-width: 768px) {
                 height: 50px;
             }
-            
+
             @media (min-width: 1200px) {
                 height: unset;
                 margin: 50px auto;
+                &:hover {
+                    transform: scale(1.1);
+                    filter: drop-shadow(10px 10px 10px rgba(245, 166, 35, 0.4));
+                }
             }
         }
     }
@@ -29,7 +33,7 @@
     .participant {
         display: flex;
         flex-wrap: wrap;
-        
+
         @media (min-width: 1200px) {
             flex-wrap: unset;
         }
@@ -40,7 +44,7 @@
 
             @media (min-width: 768px) {
             }
-            
+
             @media (min-width: 1200px) {
             }
 
@@ -53,7 +57,7 @@
                     width: 80%;
                     margin: 20px 0;
                 }
-                
+
                 .fa-solid {
                     margin-right: 10px;
                     color: #66ffe5;
@@ -62,7 +66,7 @@
                     @media (min-width: 768px) {
                         margin-right: 18px;
                     }
-                    
+
                     @media (min-width: 1200px) {
                         font-size: 30px;
                     }
@@ -79,7 +83,7 @@
                     @media (min-width: 768px) {
                         font-size: 16px;
                     }
-                    
+
                     @media (min-width: 1200px) {
                         font-size: 20px;
                     }
@@ -98,7 +102,7 @@
                     width: 490px;
                     height: 330px;
                 }
-                
+
                 @media (min-width: 1200px) {
                     width: 490px;
                     height: 330px;

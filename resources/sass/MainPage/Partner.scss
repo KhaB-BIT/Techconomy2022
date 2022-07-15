@@ -11,6 +11,10 @@
         @media (min-width: 1200px) {
             height: unset;
             margin: 50px auto;
+            &:hover {
+                transform: scale(1.1);
+                filter: drop-shadow(10px 10px 10px rgba(245, 166, 35, 0.4));
+            }
         }
     }
 }
@@ -40,12 +44,10 @@
             max-height: 60px;
             max-width: 175px;
         }
-        
+
         @media (min-width: 1200px) {
             max-height: 70px;
             max-width: 200px;
         }
-        
     }
 }
-

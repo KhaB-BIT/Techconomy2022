@@ -29,6 +29,11 @@
             @media (min-width: 1200px) {
                 height: unset;
                 margin: 50px auto;
+                transform: scale(1);
+                &:hover {
+                    transform: scale(1.1);
+                    filter: drop-shadow(10px 10px 10px rgba(245, 166, 35, 0.4));
+                }
             }
         }
     }
@@ -51,7 +56,7 @@
         }
 
         @media (min-width: 1200px) {
-            font-size: 25px;
+            font-size: 21px;
             padding: 30px;
             padding-bottom: 60px;
         }
@@ -83,6 +88,9 @@
 
         .orange {
             color: #ffb24b;
+            &:hover {
+                font-weight: bolder;
+            }
         }
 
         &--booklet {

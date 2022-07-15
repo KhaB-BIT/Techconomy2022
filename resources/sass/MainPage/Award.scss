@@ -11,26 +11,28 @@
         @media (min-width: 1200px) {
             height: unset;
             margin: 50px auto;
+            &:hover {
+                transform: scale(1.1);
+                filter: drop-shadow(10px 10px 10px rgba(245, 166, 35, 0.4));
+            }
         }
     }
 }
 
 @media (min-width: 768px) {
-                    
 }
 
 @media (min-width: 1200px) {
-
 }
 
 .container-award {
     margin: auto;
     background-color: $background;
-    background-image: url('/img/background award.png');
+    background-image: url("/img/background award.png");
     background-repeat: repeat-y;
     background-position: top center;
     background-size: contain;
-    
+
     @media (min-width: 1200px) {
         background-repeat: no-repeat;
         background-position: center;
@@ -42,10 +44,10 @@
         position: relative;
 
         @media (min-width: 768px) {
-            width: 500px; 
+            width: 500px;
             margin: 50px auto;
         }
-        
+
         .award__img {
             img {
                 width: 100%;
@@ -78,7 +80,7 @@
                 @media (min-width: 768px) {
                     font-size: 18px;
                 }
-                
+
                 @media (min-width: 1200px) {
                     font-size: 20px;
                 }
@@ -107,7 +109,7 @@
                 @media (min-width: 768px) {
                     font-size: 24px;
                 }
-                
+
                 @media (min-width: 1200px) {
                     font-size: 30px;
                 }
@@ -116,20 +118,18 @@
     }
 
     .award:nth-child(1) {
-
         width: 100%;
-        
+
         @media (min-width: 768px) {
             width: 500px;
-            
         }
-        
+
         @media (min-width: 1200px) {
             width: 100%;
             left: 50%;
             transform: translateX(-250px);
         }
-        
+
         .award__img {
             width: 100%;
 
@@ -145,7 +145,6 @@
                 top: -35px;
                 left: 125px;
             }
-            
         }
     }
 
@@ -174,7 +173,6 @@
     }
 
     .award:nth-child(4) {
-
         .award__info {
             top: -35px;
             left: 100px;
@@ -189,7 +187,6 @@
             color: #82d1e1;
             text-shadow: 0px 0px 6px #82d1e1;
         }
-        
     }
 
     .award:nth-child(5) {
@@ -206,6 +203,5 @@
             color: #82d1e1;
             text-shadow: 0px 0px 6px #82d1e1;
         }
-
     }
 }

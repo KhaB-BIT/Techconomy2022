@@ -22,6 +22,12 @@
             @media (min-width: 1200px) {
                 height: unset;
                 margin: 50px auto;
+                &:hover {
+                    transform: scale(1.1);
+                    filter: drop-shadow(
+                        10px 10px 10px rgba(132, 212, 230, 0.45)
+                    );
+                }
             }
         }
     }

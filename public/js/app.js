@@ -2182,7 +2182,8 @@ $(".owl-carousel").owlCarousel({
       dotsEach: false
     },
     1000: {
-      items: 1
+      items: 1,
+      autoplayHoverPause: true
     }
   }
 });

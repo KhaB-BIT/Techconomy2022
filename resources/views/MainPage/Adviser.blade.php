@@ -40,7 +40,7 @@
                             <br>
                             Tư vấn về tài chính, tài chính số, kinh tế xã hội cho các đài truyền hình VTV, HTV, ANTV,
                             THV <br>
-                            Cố vấn lĩnh vực: <strong>Cuộc thi Fintech, Công nghệ Blockchain của tập đoàn
+                            Cố vấn lĩnh vực: <strong>Fintech, Công nghệ Blockchain của tập đoàn
                                 Phongsupthavy,...</strong>
                         </p>
 
@@ -102,8 +102,8 @@
                     <img class="main-item__img" src="/img/Thầy Hùng.jpg" alt="">
                     <div class="main-item__info border-gradient">
                         <h1 class="main-item__info--name">ThS. VÕ MINH HÙNG</h1>
-                        <p class="main-item__info--detail mt-0">Trưởng phòng CNTT, Đại học UEH <br>
-                            Giảng viên Khoa Giảng viên Khoa Kế toán <br>
+                        <p class="main-item__info--detail mt-0">
+                        Giảng viên Khoa Giảng viên Khoa Kế toán, Trường đại học Kinh tế TP.HCM.<br>
                             Cố vấn lĩnh vực: <strong>Quản trị nguồn lực (ERP)</strong>
                         </p>
 
@@ -119,7 +119,7 @@
             </div>
             <div class="item">
                 <div class="main-item">
-                    <img class="main-item__img" src="/img/anh ueh.jpg" alt="">
+                    <img class="main-item__img" src="/img/Thầy Khang.jpg" alt="">
                     <div class="main-item__info border-gradient">
                         <h1 class="main-item__info--name">ThS. LÊ DUY KHANG</h1>
                         <p class="main-item__info--detail mt-0">Giảng viên khoa Quản trị kinh doanh, Trường Đại học Mở

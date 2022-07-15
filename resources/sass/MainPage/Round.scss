@@ -22,6 +22,12 @@
             @media (min-width: 1200px) {
                 height: unset;
                 margin: 50px auto;
+                &:hover {
+                    transform: scale(1.1);
+                    filter: drop-shadow(
+                        10px 10px 10px rgba(132, 212, 230, 0.45)
+                    );
+                }
             }
         }
     }
@@ -94,11 +100,11 @@
                 h5 {
                     margin-bottom: 0px;
 
-                    @media (min-width:768px) {
+                    @media (min-width: 768px) {
                         margin-bottom: 10px;
                     }
 
-                    @media (min-width:1200px) {
+                    @media (min-width: 1200px) {
                         margin-bottom: 20px;
                     }
                 }
@@ -134,7 +140,7 @@
 
                 @media (min-width: 768px) {
                 }
-                
+
                 @media (min-width: 1200px) {
                     top: -7px;
                     right: -7px;
@@ -149,7 +155,7 @@
 
                 @media (min-width: 768px) {
                 }
-                
+
                 @media (min-width: 1200px) {
                     bottom: -7px;
                     left: -7px;
