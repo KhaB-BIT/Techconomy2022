@@ -14,3 +14,138 @@ body {
 .intro {
   color: red;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.title img {
+  height: 50px;
+}
+@media (min-width: 992px) {
+  .title img {
+    height: unset;
+  }
+}
+
+@media (min-width: 992px) {
+  .question {
+    padding: 0 100px;
+  }
+}
+.question-1, .question-2, .question-3, .question-4, .question-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 5px;
+}
+@media (min-width: 992px) {
+  .question-1, .question-2, .question-3, .question-4, .question-5 {
+    font-size: 20px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+}
+.question-1:hover, .question-2:hover, .question-3:hover, .question-4:hover, .question-5:hover {
+  font-weight: 700;
+  color: #85D5E6;
+}
+.question_content {
+  margin: 0;
+  margin-right: 11px;
+}
+.question .drop-down-1.rotate {
+  transform: rotate(180deg);
+}
+.question .drop-down-2.rotate {
+  transform: rotate(180deg);
+}
+.question .drop-down-3.rotate {
+  transform: rotate(180deg);
+}
+.question .drop-down-4.rotate {
+  transform: rotate(180deg);
+}
+.question .drop-down-5.rotate {
+  transform: rotate(180deg);
+}
+.question .fa-angle-down {
+  font-size: 30px;
+  color: #85D5E6;
+}
+@media (min-width: 992px) {
+  .question .fa-angle-down {
+    font-size: 40px;
+  }
+}
+.question .line {
+  height: 1px;
+  background-color: #85D5E6;
+  margin: 10px 0 10px 0;
+}
+@media (min-width: 992px) {
+  .question .line {
+    margin: 16px 0 16px 0;
+  }
+}
+.question .answer {
+  display: none;
+  padding: 0 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+@media (min-width: 992px) {
+  .question .answer {
+    font-size: 19px;
+  }
+}
+.question .answer p {
+  margin: 0;
+}
+.question .answer .fa-circle {
+  font-size: 2px;
+}
+@media (min-width: 992px) {
+  .question .answer .fa-circle {
+    font-size: 5px;
+  }
+}
+.question .answer .fa-exclamation-triangle {
+  color: yellow;
+}
+.question .answer .bold {
+  font-weight: 700;
+}
+.question .answer .underline {
+  text-decoration: underline;
+}
+.question .answer .italic {
+  font-style: italic;
+}
+.question .answer-1.display {
+  display: block;
+}
+.question .answer-2.display {
+  display: block;
+}
+.question .answer-3.display {
+  display: block;
+}
+.question .answer-4.display {
+  display: block;
+}
+.question .answer-5.display {
+  display: block;
+}
