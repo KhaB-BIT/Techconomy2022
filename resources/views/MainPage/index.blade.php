@@ -5,9 +5,10 @@
     @include('MainPage.Round')
     @include('MainPage.Participant')
     @include('MainPage.Rule')
-    {{-- @include('MainPage.Award') --}}
-    @include('MainPage.Partner')
+    @include('MainPage.Award')
     @include('MainPage.Adviser')
+    @include('MainPage.Partner')
     @include('MainPage.Register')
+    @include('MainPage.FAQ')
     @include('MainPage.Countdown')
 @endsection

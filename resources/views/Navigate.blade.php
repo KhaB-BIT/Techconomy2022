@@ -5,11 +5,26 @@
             <div id="nav-mobile--close" class="nav__close">
                 <i class="fa-solid fa-xmark"></i>
             </div>
-            <a class="nav__link" href="#intro">Giới thiệu</a>
-            <a class="nav__link" href="#round">Về cuộc thi</a>
-            <a class="nav__link" href="#partner">Đối tác</a>
-            <a class="nav__link" href="">FAQs</a>
-            <a class="nav__link" href="#footer">Liên hệ</a>
+            <a class="nav__link" href="#intro">
+                Giới thiệu
+                <div class="before"></div>
+            </a>
+            <a class="nav__link" href="#round">
+                Về cuộc thi
+                <div class="before"></div>
+            </a>
+            <a class="nav__link" href="#partner">
+                Đối tác
+                <div class="before"></div>
+            </a>
+            <a class="nav__link" href="#faqs">
+                FAQs
+                <div class="before"></div>
+            </a>
+            <a class="nav__link" href="#footer">
+                Liên hệ
+                <div class="before"></div>
+            </a>
         </nav>
         <div id="menu-mobile" class="navigation__menu">
             <i class="fa-solid fa-bars"></i>

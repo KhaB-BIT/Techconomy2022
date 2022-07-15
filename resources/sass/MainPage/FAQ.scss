@@ -1,0 +1,158 @@
+.title {
+    display: flex;
+    justify-content: center;
+ 
+    img {
+        margin: 30px auto;
+        display: block;
+        height: 30px;
+
+        @media (min-width: 768px) {
+            height: 50px;
+        }
+
+        @media (min-width: 1200px) {
+            height: unset;
+            margin: 50px auto;
+        }
+    }
+}
+ 
+.question {
+ 
+    @media (min-width: 992px) {
+        padding: 0 100px;
+    }
+ 
+    &-1, &-2, &-3, &-4, &-5 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 25px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        color: #FFFFFF;
+        cursor: pointer;
+        margin-top: 5px;
+       
+        @media (min-width: 992px) {
+            font-size: 20px;
+            line-height: 35px;
+            margin-top: 20px;
+        }
+ 
+        &:hover {
+            font-weight: 600;
+            color: #85D5E6;
+        }
+    }
+   
+    &_content {
+        margin: 0;
+        margin-right: 11px;
+    }
+ 
+    .drop-down-1.rotate {
+        transform: rotate(180deg);
+    }
+   
+    .drop-down-2.rotate {
+        transform: rotate(180deg);
+    }
+   
+    .drop-down-3.rotate {
+        transform: rotate(180deg);
+    }
+   
+    .drop-down-4.rotate {
+        transform: rotate(180deg);
+    }
+   
+    .drop-down-5.rotate {
+        transform: rotate(180deg);
+    }
+ 
+    .fa-angle-down {
+        font-size: 30px;
+        color: #85D5E6;
+       
+        @media (min-width: 992px) {
+            font-size: 40px;
+        }
+    }
+ 
+    .line {
+        height: 1px;
+        background-color: #85D5E6;
+        margin: 10px 0 10px 0;
+       
+        @media (min-width: 992px) {
+            margin: 16px 0 16px 0;
+        }
+    }
+ 
+    .answer {
+        display: none;
+        padding: 0 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 35px;
+        color: #FFFFFF;
+       
+        @media (min-width: 992px) {
+            font-size: 19px;
+        }
+ 
+        p {
+            margin: 0;
+        }
+ 
+        .fa-circle {
+            font-size: 2px;
+            
+            @media (min-width: 992px) {
+                font-size: 5px;
+            }
+        }
+ 
+        .fa-exclamation-triangle {
+            color: yellow;
+        }
+ 
+        .bold {
+            font-weight: 700;
+        }
+ 
+        .underline {
+            text-decoration: underline;
+        }
+ 
+        .italic {
+            font-style: italic;
+        }
+    }
+ 
+    .answer-1.display {
+        display: block;
+    }
+   
+    .answer-2.display {
+        display: block;
+    }
+   
+    .answer-3.display {
+        display: block;
+    }
+   
+    .answer-4.display {
+        display: block;
+    }
+   
+    .answer-5.display {
+        display: block;
+    }
+}

@@ -20,7 +20,8 @@
                     <li>Mỗi nhóm nộp <b>01 bản ý tưởng</b> về dự án gồm các nội dung cơ bản theo yêu cầu của BTC, kèm
                         theo
                         CV của các thành viên trong đội trước 23h50p ngày <b>15/8/2022</b></li>
-                    <li>Các nhóm làm đúng <a href="">yêu cầu dự thi Vòng 1</a> sẽ được cập nhật điểm rèn luyện.</li>
+                    <li>Các nhóm làm đúng <a href="">yêu cầu dự thi Vòng 1</a> sẽ được cập nhật điểm rèn luyện.
+                    </li>
                     <li>BTC tiến hành chọn lựa các CV và ý tưởng tiềm năng để phỏng vấn. Vòng phỏng vấn diễn ra từ
                         ngày <b>19/08/2022</b> đến <b>22/08/2022</b>.</li>
                     <li>Ngày <b>23/08/2022</b>, BTC sẽ công bố 16-20 đội được vào vòng 2</li>
@@ -47,8 +48,9 @@
                         các đội thi.</li>
                     <li>Từ ngày <b>28/08/2022</b> đến <b>07/09/2022</b>, các đội thi thực hiện ấn phẩm truyền thông để
                         giới thiệu dự
-                        án và đội thi của mình, đăng tải lên fanpage <a href="">CLB Công nghệ kinh tế</a> và kênh
-                        Tiktok <a href="">etclub_ueh</a>.
+                        án và đội thi của mình, đăng tải lên fanpage <a href="https://www.facebook.com/ETClub.UEH"
+                            target="_blank">CLB Công nghệ kinh tế</a> và kênh
+                        Tiktok <a href="https://www.tiktok.com/@etclub_ueh" target="_blank">etclub_ueh</a>.
                     </li>
                     <li>Toàn thể sinh viên sẽ bình chọn cho dự án và đội thi mà mình yêu thích từ ngày <b>08/09/2022</b>
                         đến
@@ -111,7 +113,8 @@
             <div class="round__info">
                 <ul class="mb-0">
                     <li>Từ ngày <b>16/11/2022</b> đến <b>30/12/2022</b>, các đội thi tiến hành hoàn thành dự án.</li>
-                    <li>Ngày <b>03/12/2022</b>, Tổ chức triển lãm công nghệ tại sảnh B1 - UEH và Gala Chung kết cuộc thi.</li>
+                    <li>Ngày <b>03/12/2022</b>, Tổ chức triển lãm công nghệ tại sảnh B1 - UEH và Gala Chung kết cuộc
+                        thi.</li>
                     <li>Trong Gala chung kết, mỗi đội sẽ có 20 phút để thuyết trình về dự án và 10 phút để trả lời câu
                         hỏi của BGK. Điểm của đội thi sẽ được tính từ 30% điểm bình chọn từ hội trường và 70% số điểm từ
                         BGK.
