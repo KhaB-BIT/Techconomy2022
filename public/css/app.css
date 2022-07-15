@@ -946,10 +946,15 @@ header .banner .banner__btn-scroll-down i {
 @media (min-width: 1200px) {
   .container-adviser .adviser--title {
     display: block !important;
+    transform: scale(1);
   }
   .container-adviser .adviser--title img {
     display: block;
-    margin: 50px auto;
+    margin: 50px auto 0;
+  }
+  .container-adviser .adviser--title:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(10px 10px 10px rgba(133, 213, 230, 0.45));
   }
   .container-adviser .adviser--title__mobile {
     display: none;
@@ -965,8 +970,18 @@ header .banner .banner__btn-scroll-down i {
 .container-adviser .main-item {
   width: 310px;
   margin: 50px auto;
+  height: 390px;
+  margin: 0 auto;
   position: relative;
-  margin: 0 auto 150px;
+}
+@media (min-width: 576px) {
+  .container-adviser .main-item {
+    width: 650px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 20px auto;
+  }
 }
 @media (min-width: 1200px) {
   .container-adviser .main-item {
@@ -985,33 +1000,49 @@ header .banner .banner__btn-scroll-down i {
   position: relative;
   z-index: 1;
 }
-@media (min-width: 1200px) {
+@media (min-width: 576px) {
   .container-adviser .main-item .main-item__img {
     margin: 0;
+    width: 320px;
+    height: 400px;
+    z-index: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .container-adviser .main-item .main-item__img {
     width: 440px;
     height: 550px;
-    z-index: 0;
+    transform: scale(1);
+  }
+  .container-adviser .main-item .main-item__img:hover {
+    transform: scale(1.2);
   }
 }
 .container-adviser .main-item .main-item__info {
   position: absolute;
   right: 0;
-  top: 127%;
-  max-width: 310px;
+  top: 48%;
+  width: 310px;
   padding: 30px 20px;
-  transform: translateY(-50%);
   background: linear-gradient(180deg, #85d5e6 63%, rgba(189, 221, 239, 0) 95.56%, rgba(141, 213, 230, 0.45) 49.29%, rgba(133, 213, 230, 0.15) 95.6%, rgba(133, 213, 230, 0) 76.44%);
   border-radius: 30px;
-  display: inline-block;
+}
+@media (min-width: 576px) {
+  .container-adviser .main-item .main-item__info {
+    position: absolute;
+    top: 50%;
+    width: 350px !important;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg, #85d5e6 0%, rgba(133, 213, 230, 0.85) 23.56%, rgba(133, 213, 230, 0.45) 51.29%, rgba(133, 213, 230, 0.15) 76.6%, rgba(133, 213, 230, 0) 94.44%);
+    border-radius: 30px;
+    border: 3px solid #85D5E6;
+  }
 }
 @media (min-width: 1200px) {
   .container-adviser .main-item .main-item__info {
     top: 50%;
-    max-width: 440px;
+    width: 440px !important;
     padding: 20px 30px;
-    background: linear-gradient(90deg, #85d5e6 0%, rgba(133, 213, 230, 0.85) 23.56%, rgba(133, 213, 230, 0.45) 51.29%, rgba(133, 213, 230, 0.15) 76.6%, rgba(133, 213, 230, 0) 94.44%);
-    border-radius: 30px;
-    border: 3px solid #85D5E6;
   }
 }
 .container-adviser .main-item .main-item__info--name, .container-adviser .main-item .main-item__info--detail {
@@ -1027,13 +1058,27 @@ header .banner .banner__btn-scroll-down i {
     font-weight: 500;
   }
 }
+@media (min-width: 576px) {
+  .container-adviser .main-item .main-item__info--name, .container-adviser .main-item .main-item__info--detail {
+    font-size: 15px;
+  }
+}
 .container-adviser .main-item .main-item__info--name {
   font-size: 15px;
   font-weight: 800;
+  margin-bottom: 7px !important;
+}
+@media (min-width: 576px) {
+  .container-adviser .main-item .main-item__info--name {
+    margin-bottom: 12px !important;
+    font-size: 18px;
+    font-weight: 800;
+  }
 }
 @media (min-width: 1200px) {
   .container-adviser .main-item .main-item__info--name {
-    font-size: 20px;
+    margin-bottom: 15px !important;
+    font-size: 21px;
     font-weight: 800;
   }
 }
@@ -1054,12 +1099,20 @@ header .banner .banner__btn-scroll-down i {
 .container-adviser .main-item .main-item__info .item-top-right {
   position: absolute;
   width: unset;
-  top: -25px;
-  right: -25px;
+  top: -27px;
+  right: -29px;
   transform: scale(0.8);
+}
+@media (min-width: 576px) {
+  .container-adviser .main-item .main-item__info .item-top-right {
+    top: -29px;
+    right: -33px;
+  }
 }
 @media (min-width: 1200px) {
   .container-adviser .main-item .main-item__info .item-top-right {
+    top: -25px;
+    right: -25px;
     transform: scale(1);
   }
 }

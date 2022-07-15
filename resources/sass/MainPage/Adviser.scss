@@ -3,9 +3,14 @@
     @media (min-width: 1200px) {
         .adviser--title {
             display: block !important;
+            transform: scale(1);
             img {
                 display: block;
-                margin: 50px auto;
+                margin: 50px auto 0;
+            }
+            &:hover {
+                transform: scale(1.1);
+                filter: drop-shadow(10px 10px 10px rgb(133, 213, 230, 0.45));
             }
         }
         .adviser--title__mobile {
@@ -25,8 +30,14 @@
     .main-item {
         width: 310px;
         margin: 50px auto;
+        height: 390px;
+        margin: 0 auto;
         position: relative;
-        margin: 0 auto 150px;
+        @media (min-width: 576px) {
+            width: 650px;
+            height: fit-content;
+            margin: 20px auto;
+        }
         @media (min-width: 1200px) {
             width: 850px;
             margin: 50px auto;
@@ -41,20 +52,27 @@
             filter: drop-shadow(10px 5px 20px rgba(133, 213, 230, 0.3));
             position: relative;
             z-index: 1;
-            @media (min-width: 1200px) {
+            @media (min-width: 576px) {
                 margin: 0;
+                width: 320px;
+                height: 400px;
+                z-index: 0;
+            }
+            @media (min-width: 1200px) {
                 width: 440px;
                 height: 550px;
-                z-index: 0;
+                transform: scale(1);
+                &:hover {
+                    transform: scale(1.2);
+                }
             }
         }
         .main-item__info {
             position: absolute;
             right: 0;
-            top: 127%;
-            max-width: 310px;
+            top: 48%;
+            width: 310px;
             padding: 30px 20px;
-            transform: translateY(-50%);
             background: linear-gradient(
                 180deg,
                 #85d5e6 63%,
@@ -64,11 +82,11 @@
                 rgba(133, 213, 230, 0) 76.44%
             );
             border-radius: 30px;
-            display: inline-block;
-            @media (min-width: 1200px) {
+            @media (min-width: 576px) {
+                position: absolute;
                 top: 50%;
-                max-width: 440px;
-                padding: 20px 30px;
+                width: 350px !important;
+                transform: translateY(-50%);
                 background: linear-gradient(
                     90deg,
                     #85d5e6 0%,
@@ -79,6 +97,11 @@
                 );
                 border-radius: 30px;
                 border: 3px solid $blue_border;
+            }
+            @media (min-width: 1200px) {
+                top: 50%;
+                width: 440px !important;
+                padding: 20px 30px;
             }
             &--name,
             &--detail {
@@ -92,14 +115,24 @@
                     font-size: 20px;
                     font-weight: 500;
                 }
+                @media (min-width: 576px) {
+                    font-size: 15px;
+                }
             }
             &--name {
-                @media (min-width: 1200px) {
-                    font-size: 20px;
-                    font-weight: 800;
-                }
                 font-size: 15px;
                 font-weight: 800;
+                margin-bottom: 7px !important;
+                @media (min-width: 576px) {
+                    margin-bottom: 12px !important;
+                    font-size: 18px;
+                    font-weight: 800;
+                }
+                @media (min-width: 1200px) {
+                    margin-bottom: 15px !important;
+                    font-size: 21px;
+                    font-weight: 800;
+                }
             }
             .item-bottom-left {
                 position: absolute;
@@ -116,10 +149,16 @@
             .item-top-right {
                 position: absolute;
                 width: unset;
-                top: -25px;
-                right: -25px;
+                top: -27px;
+                right: -29px;
                 transform: scale(0.8);
+                @media (min-width: 576px) {
+                    top: -29px;
+                    right: -33px;
+                }
                 @media (min-width: 1200px) {
+                    top: -25px;
+                    right: -25px;
                     transform: scale(1);
                 }
             }
