@@ -75,7 +75,7 @@
 
             <div class="footer__media--link">
                 <i class="fa-solid fa-envelope"></i>
-                <a target="_blank" href="mailto:et@ueh.edu.vn">et@ueh.edu.vn</a>
+                <a target="_blank" href="mailto:techconomy.etclubueh@gmail.com">techconomy.etclubueh@gmail.com</a>
             </div>
 
             <div class="footer__media--link">

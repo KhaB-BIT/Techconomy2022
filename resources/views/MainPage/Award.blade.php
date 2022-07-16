@@ -5,7 +5,8 @@
 
     <div class="container-award row">
         
-        <div class="award col-12">
+        <div class="col-lg-3"></div>
+        <div class="award col-12 col-lg-6">
             <div class="award__img">
                 <img src="./img/giai nhat.png" alt="">
             </div>
@@ -25,6 +26,7 @@
                 
             </div>
         </div>
+        <div class="col-lg-3"></div>
 
         <div class="award col-12 col-lg-6">
             <div class="award__img">

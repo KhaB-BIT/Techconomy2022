@@ -48,8 +48,8 @@
                         các đội thi.</li>
                     <li>Từ ngày <b>28/08/2022</b> đến <b>07/09/2022</b>, các đội thi thực hiện ấn phẩm truyền thông để
                         giới thiệu dự
-                        án và đội thi của mình, đăng tải lên fanpage <a href="https://www.facebook.com/ETClub.UEH"
-                            target="_blank">CLB Công nghệ kinh tế</a> và kênh
+                        án và đội thi của mình, đăng tải lên fanpage <a href="https://www.facebook.com/TECHCONOMY2022"
+                            target="_blank">TECHCONOMY 2022 - The New Global Context</a> và kênh
                         Tiktok <a href="https://www.tiktok.com/@etclub_ueh" target="_blank">etclub_ueh</a>.
                     </li>
                     <li>Toàn thể sinh viên sẽ bình chọn cho dự án và đội thi mà mình yêu thích từ ngày <b>08/09/2022</b>
