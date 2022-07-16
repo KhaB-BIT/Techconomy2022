@@ -1837,7 +1837,7 @@ header .banner .banner__btn-scroll-down i {
   line-height: 25px;
   font-family: "Montserrat";
   font-style: normal;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   margin-top: 5px;
 }
@@ -1850,7 +1850,7 @@ header .banner .banner__btn-scroll-down i {
 }
 .question-1:hover, .question-2:hover, .question-3:hover, .question-4:hover, .question-5:hover {
   font-weight: 600;
-  color: #85D5E6;
+  color: #85d5e6;
 }
 .question_content {
   margin: 0;
@@ -1873,7 +1873,7 @@ header .banner .banner__btn-scroll-down i {
 }
 .question .fa-angle-down {
   font-size: 30px;
-  color: #85D5E6;
+  color: #85d5e6;
 }
 @media (min-width: 992px) {
   .question .fa-angle-down {
@@ -1882,7 +1882,7 @@ header .banner .banner__btn-scroll-down i {
 }
 .question .line {
   height: 1px;
-  background-color: #85D5E6;
+  background-color: #85d5e6;
   margin: 10px 0 10px 0;
 }
 @media (min-width: 992px) {
@@ -1898,7 +1898,10 @@ header .banner .banner__btn-scroll-down i {
   font-weight: 400;
   font-size: 11px;
   line-height: 35px;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+.question .answer a {
+  color: #fff !important;
 }
 @media (min-width: 992px) {
   .question .answer {
