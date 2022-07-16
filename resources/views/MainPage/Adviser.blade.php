@@ -123,7 +123,7 @@
                         <h1 class="main-item__info--name">ThS. LÊ DUY KHANG</h1>
                         <p class="main-item__info--detail mt-0">Giảng viên Trường Công nghệ và Thiết kế, Đại học UEH
  <br>
-                            Cố vấn lĩnh vực: <strong>Digital marketing</strong>
+                            Cố vấn lĩnh vực: <strong>Digital Marketing</strong>
                         </p>
 
                         <img class="item-bottom-left " src="/img/Line 59.png" alt="">
