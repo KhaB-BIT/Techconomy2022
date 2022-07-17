@@ -1,7 +1,7 @@
 <footer id="footer">
 
     <div class="container-footer-mobile">
-        <img src="./img/background footer mobile.png" alt="">
+        <img src="/img/backgroundfootermobile.png" alt="">
 
         <div class="footer-mobile__contact">
             <h1 class="footer-mobile__contact--title">LIÊN HỆ</h1>
@@ -32,7 +32,7 @@
             <i class="fa-solid fa-circle-arrow-up"></i>
         </div>
 
-        <img class="footer__background" src="./img/background footer.png" alt="">
+        <img class="footer__background" src="/img/backgroundfooter.png" alt="">
         <div class="footer__contact">
             <h1 class="footer__contact--title">LIÊN HỆ</h1>
             <div class="footer__contact--phone">

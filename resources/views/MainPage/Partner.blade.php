@@ -1,18 +1,18 @@
 <section id="partner">
 
     <div class="partner--title">
-        <img src="./img/doi tac.png" alt="">
+        <img src="/img/doitac.png" alt="">
     </div>
 
     <div class="container-partner">
-        <img src="./img/doi tac 1.png" alt="">
-        <img src="./img/doi tac 2.jpg" alt="">
-        <img src="./img/doi tac 3.png" alt="">
-        <img src="./img/doi tac 4.png" alt="">
-        <img src="./img/doi tac 5.png" alt="">
-        <img src="./img/doi tac 6.png" alt="">
-        <img src="./img/doi tac 7.png" alt="">
-        <img src="./img/doi tac 8.png" alt="">
+        <img src="/img/doitac1.png" alt="">
+        <img src="/img/doitac2.jpg" alt="">
+        <img src="/img/doitac3.png" alt="">
+        <img src="/img/doitac4.png" alt="">
+        <img src="/img/doitac5.png" alt="">
+        <img src="/img/doitac6.png" alt="">
+        <img src="/img/doitac7.png" alt="">
+        <img src="/img/doitac8.png" alt="">
     </div>
 
 </section>

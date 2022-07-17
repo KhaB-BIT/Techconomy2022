@@ -1,11 +1,11 @@
 <section id="round">
     <div class="container-round">
         <div class="round--title">
-            <img src="/img/the le.png" alt="Thể lệ">
+            <img src="/img/thele.png" alt="Thể lệ">
         </div>
         <div class="round round_1">
             <div class="round__time">
-                <img class="round__time--img" src="./img/border round.png" alt="">
+                <img class="round__time--img" src="/img/borderround.png" alt="">
                 <div class=round__time--detail>
                     <h5>Vòng 1</h5>
                     <h6 class="text-shadow">Nộp CV & Ý tưởng</h6>
@@ -26,13 +26,13 @@
                         ngày <b>19/08/2022</b> đến <b>22/08/2022</b>.</li>
                     <li>Ngày <b>23/08/2022</b>, BTC sẽ công bố 16-20 đội được vào vòng 2</li>
                 </ul>
-                <img class="top-right" src="./img/top right.png" alt="">
-                <img class="bottom-left" src="./img/bottom left.png" alt="">
+                <img class="top-right" src="/img/topright.png" alt="">
+                <img class="bottom-left" src="/img/bottomleft.png" alt="">
             </div>
         </div>
         <div class="round round_2">
             <div class="round__time">
-                <img class="round__time--img" src="./img/border round.png" alt="">
+                <img class="round__time--img" src="/img/borderround.png" alt="">
                 <div class=round__time--detail>
                     <h5>Vòng 2</h5>
                     <h6 class="text-shadow">Hoàn thiện ý tưởng</h6>
@@ -63,13 +63,13 @@
                         Hướng dẫn lập trình để hoàn thiện dự án.
                     </li>
                 </ul>
-                <img class="top-right" src="./img/top right.png" alt="">
-                <img class="bottom-left" src="./img/bottom left.png" alt="">
+                <img class="top-right" src="/img/topright.png" alt="">
+                <img class="bottom-left" src="/img/bottomleft.png" alt="">
             </div>
         </div>
         <div class="round round_3">
             <div class="round__time">
-                <img class="round__time--img" src="./img/border round.png" alt="">
+                <img class="round__time--img" src="/img/borderround.png" alt="">
                 <div class=round__time--detail>
                     <h5>Vòng 3</h5>
                     <h6 class="text-shadow">Hoàn thiện dự án</h6>
@@ -94,13 +94,13 @@
                         của vòng 2.
                     </li>
                 </ul>
-                <img class="top-right" src="./img/top right.png" alt="">
-                <img class="bottom-left" src="./img/bottom left.png" alt="">
+                <img class="top-right" src="/img/topright.png" alt="">
+                <img class="bottom-left" src="/img/bottomleft.png" alt="">
             </div>
         </div>
         <div class="round round_4">
             <div class="round__time">
-                <img class="round__time--img" src="./img/border round.png" alt="">
+                <img class="round__time--img" src="/img/borderround.png" alt="">
                 <div class=round__time--detail>
                     <h5>Vòng 4</h5>
                     <h6 class="text-shadow">Chung kết</h6>
@@ -120,8 +120,8 @@
                         BGK.
                     </li>
                 </ul>
-                <img class="top-right" src="./img/top right.png" alt="">
-                <img class="bottom-left" src="./img/bottom left.png" alt="">
+                <img class="top-right" src="/img/topright.png" alt="">
+                <img class="bottom-left" src="/img/bottomleft.png" alt="">
             </div>
         </div>
     </div>

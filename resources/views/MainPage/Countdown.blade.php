@@ -24,13 +24,13 @@
             </div>
         </div>
 
-        <img class="countdown-bottom-left" src="/img/Line 59.png" alt="">
-        <img class="countdown-top-right" src="/img/Line 61.png" alt="">
-        <img class="countdown-line-1" src="/img/Line 62.png" alt="">
-        <img class="countdown-line-2" src="/img/Line 62.png" alt="">
-        <img class="countdown-dot-1" src="/img/Frame 2210.png" alt="">
-        <img class="countdown-dot-2" src="/img/Frame 2210.png" alt="">
+        <img class="countdown-bottom-left" src="/img/Line59.png" alt="">
+        <img class="countdown-top-right" src="/img/Line61.png" alt="">
+        <img class="countdown-line-1" src="/img/Line62.png" alt="">
+        <img class="countdown-line-2" src="/img/Line62.png" alt="">
+        <img class="countdown-dot-1" src="/img/Frame2210.png" alt="">
+        <img class="countdown-dot-2" src="/img/Frame2210.png" alt="">
     </div>
 
-    <img class="countdown--watch" src="/img/dong ho cat.png" alt="">
+    <img class="countdown--watch" src="/img/donghocat.png" alt="">
 </div>

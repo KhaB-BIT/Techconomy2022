@@ -1,5 +1,5 @@
 <div id="faqs">
-    <div class="title"><img src="/img/Group 2516.png" alt="FAQ"></div>
+    <div class="title"><img src="/img/Group2516.png" alt="FAQ"></div>
     <div class="question">
         <div class="question-1">
             <p class="question-1_content question_content">Thí sinh có thể đăng ký tham gia bằng hình thức thi theo cá nhân không? BTC có hỗ trợ tìm và ghép nhóm cho các cá nhân chưa tìm được đội thi và các đội thi chưa đủ thành viên không?</p>

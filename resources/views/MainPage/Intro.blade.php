@@ -1,7 +1,7 @@
 <section id="intro">
     <div class="container-intro">
         <div class="intro__title">
-            <img src="./img/gioi thieu.png" alt="">
+            <img src="/img/gioithieu.png" alt="">
         </div>
         <div class="intro__content">
             <p><b>TECHCONOMY 2022 - THE NEW GLOBAL CONTEXT,</b> tiền thân là GLOBAL TALENTS, là cuộc thi học thuật về
@@ -17,7 +17,7 @@
             </p>
 
             <div class="intro__content--booklet">
-                <a href="">
+                <a href="https://bit.ly/TECHCO22-Booklet" target="_blank">
                     <b class="orange">XEM BOOKLET &emsp;<i class="fa-solid fa-right-long"></i></b>
                 </a>
             </div>

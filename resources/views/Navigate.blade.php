@@ -1,6 +1,6 @@
 <header>
     <div class="navigation">
-        <img class="navigation__logo" src="./img/logo.png" alt="Logo">
+        <img class="navigation__logo" src="/img/logo.png" alt="Logo">
         <nav id="nav-mobile">
             <div id="nav-mobile--close" class="nav__close">
                 <i class="fa-solid fa-xmark"></i>
@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="banner">
-        <img class="banner__img" src="./img/banner.png" alt="Banner">
+        <img class="banner__img" src="/img/banner.png" alt="Banner">
         <div class="banner__info">
             <h3 class="banner__info--text">CUỘC THI Ý TƯỞNG CÔNG NGHỆ</h3>
             <h2 class="banner__info--text">TECHCONOMY 2022</h2>

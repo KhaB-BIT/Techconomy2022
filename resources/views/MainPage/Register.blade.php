@@ -1,6 +1,6 @@
 <div class="container-register">
     <div class="register">
-        <img src="./img/background dang ky.png" alt="">
+        <img src="/img/backgrounddangky.png" alt="">
         <div id="register__close">
             <i class="fa-solid fa-xmark"></i>
         </div>

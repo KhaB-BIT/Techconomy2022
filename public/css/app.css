@@ -34,6 +34,11 @@ header .navigation {
     padding: 0 20px;
   }
 }
+@media (min-width: 1200px) {
+  header .navigation {
+    padding: 0 70px;
+  }
+}
 header .navigation__logo {
   z-index: 100;
   margin-top: 10px;
@@ -1004,7 +1009,7 @@ header .banner .banner__btn-scroll-down i {
 .container-award {
   margin: auto;
   background-color: #001633;
-  background-image: url("/img/background award.png");
+  background-image: url("/img/backgroundaward.png");
   background-repeat: repeat-y;
   background-position: top center;
   background-size: contain;

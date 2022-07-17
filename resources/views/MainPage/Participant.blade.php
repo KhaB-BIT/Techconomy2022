@@ -1,7 +1,7 @@
 <section id="participant">
     <div class="container-participant">
         <div class="participant--title">
-            <img src="./img/doi tuong du thi.png" alt="">
+            <img src="/img/doituongduthi.png" alt="">
         </div>
         <div class="participant">
             <ul class="participant__list">
@@ -27,7 +27,7 @@
                 </li>
             </ul>
             <div class="participant__img">
-                <img src="./img/anh dtdt.png" alt="Ảnh đối tượng dự thi">
+                <img src="/img/anhdtdt.png" alt="Ảnh đối tượng dự thi">
             </div>
         </div>
     </div>
