@@ -17,7 +17,7 @@
             </p>
 
             <div class="intro__content--booklet">
-                <a href="https://bit.ly/TECHCO22-Booklet" target="_blank">
+                <a href="https://drive.google.com/file/d/1ZYQtahI3tt4gW4sFXenYBDCNW-TmPEsb/view?fbclid=IwAR368WmI9qwFHMKF07Ot6cTyARdp6mjIVanT3k2e_N3BLqUaghLeaBwBEoU" target="_blank">
                     <b class="orange">XEM BOOKLET &emsp;<i class="fa-solid fa-right-long"></i></b>
                 </a>
             </div>
