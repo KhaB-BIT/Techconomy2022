@@ -906,7 +906,7 @@ header .banner .banner__btn-scroll-down i {
 }
 @media (min-width: 1200px) {
   .container-rule .rule__list li {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 .container-rule .rule .rule-bottom-left {
