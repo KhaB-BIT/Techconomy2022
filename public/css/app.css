@@ -1821,6 +1821,10 @@ header .banner .banner__btn-scroll-down i {
     height: unset;
     margin: 50px auto;
   }
+  .title img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(10px 10px 10px rgba(133, 213, 230, 0.45));
+  }
 }
 
 @media (min-width: 992px) {
