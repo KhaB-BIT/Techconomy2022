@@ -440,7 +440,7 @@ header .banner .banner__btn-scroll-down i {
   }
   .container-intro .intro__title img:hover {
     transform: scale(1.1);
-    filter: drop-shadow(10px 10px 10px rgba(245, 166, 35, 0.4));
+    filter: drop-shadow(10px 10px 10px rgba(133, 213, 230, 0.45));
   }
 }
 .container-intro .intro__content {
@@ -760,7 +760,7 @@ header .banner .banner__btn-scroll-down i {
   }
   .container-participant .participant--title img:hover {
     transform: scale(1.1);
-    filter: drop-shadow(10px 10px 10px rgba(245, 166, 35, 0.4));
+    filter: drop-shadow(10px 10px 10px rgba(133, 213, 230, 0.45));
   }
 }
 .container-participant .participant {
@@ -1002,7 +1002,7 @@ header .banner .banner__btn-scroll-down i {
   }
   .award--title img:hover {
     transform: scale(1.1);
-    filter: drop-shadow(10px 10px 10px rgba(245, 166, 35, 0.4));
+    filter: drop-shadow(10px 10px 10px rgba(133, 213, 230, 0.45));
   }
 }
 
@@ -1196,7 +1196,7 @@ header .banner .banner__btn-scroll-down i {
   }
   .partner--title img:hover {
     transform: scale(1.1);
-    filter: drop-shadow(10px 10px 10px rgba(245, 166, 35, 0.4));
+    filter: drop-shadow(10px 10px 10px rgba(133, 213, 230, 0.45));
   }
 }
 
