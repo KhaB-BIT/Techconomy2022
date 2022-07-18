@@ -98,7 +98,7 @@
             <div class="award__info">
                 <h2 class="award__info--rank">ĐỘI THI ĐƯỢC YÊU THÍCH</h2>
                 <div class="award__info--detail award__info--money">
-                    3.000.000 VNĐ
+                    1.000.000 VNĐ
                 </div>
                 <div class="award__info--detail award__info--medal">
                     <img src="/img/kyniemchuong.png" alt="">
