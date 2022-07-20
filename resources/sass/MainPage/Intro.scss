@@ -11,10 +11,18 @@
     }
 }
 .container-intro {
+    position: relative;
     margin: auto;
     max-width: 860px;
     font-size: 25px;
     font-weight: 400;
+
+    .star-background {
+        position: absolute;
+        z-index: -1;
+        left: -22%;
+        top: -2%;
+    }
 
     .intro__title {
         img {

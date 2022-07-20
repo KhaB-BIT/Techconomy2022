@@ -417,10 +417,17 @@ header .banner .banner__btn-scroll-down i {
 }
 
 .container-intro {
+  position: relative;
   margin: auto;
   max-width: 860px;
   font-size: 25px;
   font-weight: 400;
+}
+.container-intro .star-background {
+  position: absolute;
+  z-index: -1;
+  left: -22%;
+  top: -2%;
 }
 .container-intro .intro__title img {
   margin: 30px auto;

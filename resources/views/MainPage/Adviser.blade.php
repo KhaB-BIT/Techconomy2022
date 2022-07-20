@@ -30,7 +30,7 @@
                 <div class="main-item">
                     <img class="main-item__img" src="/img/thaythanh.jpeg" alt="">
                     <div class="main-item__info border-gradient">
-                        <h1 class="main-item__info--name">TS.ĐẶNG NGỌC HOÀNG THÀNH</h1>
+                        <h1 class="main-item__info--name">TS. ĐẶNG NGỌC HOÀNG THÀNH</h1>
                         <p class="main-item__info--detail mt-0"> Giảng viên Trường Công nghệ và Thiết kế, Đại học UEH.
                             <br>
                             Cố vấn lĩnh vực: <strong> Xây dựng và triển khai phần mềm, hệ thống lĩnh vực Digital marketing

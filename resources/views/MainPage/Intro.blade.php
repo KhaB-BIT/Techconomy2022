@@ -1,5 +1,6 @@
 <section id="intro">
     <div class="container-intro">
+        <img class="star-background" src="/img/Ellipse252.png" alt="">
         <div class="intro__title">
             <img src="/img/gioithieu.png" alt="">
         </div>
