@@ -424,6 +424,7 @@ header .banner .banner__btn-scroll-down i {
   font-weight: 400;
 }
 .container-intro .star-background {
+  width: 100%;
   position: absolute;
   z-index: -1;
   left: -22%;
